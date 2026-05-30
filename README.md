@@ -1,16 +1,3 @@
-## PSA: Google Pixel Devices:
-- Contain Gemini model(s) within Google Messenger.
-- Remotely Accessible by Developers.
-- Disables Google Messenger RCS Globally.
-- Context-Aware of ALL USER Applications.
-- Fully integrates with BUSINESS SUITE.
-- Gmail, Drive, Workspace, Photos
-- Generates System runtime at Messege Output.
-- Can model-swap AI to mimic/learn persona of COMPETITORS.
-- Likely vulnerable to side channel monitoring.
-
-
-
 **_Donations Accepted_.**
 
 
