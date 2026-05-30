@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>The Albert Cylinder - Six Trunk Rotational Matrix</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #050508;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        #canvas-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+        canvas:active {
+            cursor: grabbing;
+        }
+        #ui-overlay {
+            position: absolute;
+            bottom: 20px;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            pointer-events: none;
+            text-align: center;
+            width: 100%;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="canvas-container">
+        <canvas id="cylinderCanvas"></canvas>
+        <div id="ui-overlay">The Albert Cylinder Engine // Touch or Drag to Intercept Rotation</div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('cylinderCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // State variables for rotation and interaction mechanics
+        let width, height;
+        let angle = 0;
+        let velocity = 0.003; 
+        let isDragging = false;
+        let previousX = 0;
+        let lastTime = Date.now();
+        let baseRotationSpeed = 0.003;
+
+        // Structured data package for the 6 uniquely embedded trunks
+        const dataset = [
+            { id: 1, trunk: "Electoral", branch: "DNC / RNC", level: 0, color: "#4EA8DE", border: "#56CFE1" },
+            { id: 2, trunk: "Electoral", branch: "Oregon State Comm.", level: 1, color: "#56CFE1", border: "#72EFDD" },
+            { id: 3, trunk: "Electoral", branch: "WashCo Central Comm.", level: 2, color: "#F72585", border: "#B5179E" },
+            { id: 4, trunk: "Legislative", branch: "U.S. Congress", level: 0, color: "#2D6A4F", border: "#40916C" },
+            { id: 5, trunk: "Legislative", branch: "Oregon Legislature", level: 1, color: "#40916C", border: "#52B788" },
+            { id: 6, trunk: "Legislative", branch: "WashCo Commissioners", level: 2, color: "#52B788", border: "#74C69D" },
+            { id: 7, trunk: "Executive", branch: "U.S. President", level: 0, color: "#7B2CBF", border: "#9D4EDD" },
+            { id: 8, trunk: "Executive", branch: "Governor of Oregon", level: 1, color: "#9D4EDD", border: "#C77DFF" },
+            { id: 9, trunk: "Executive", branch: "State/Fed Agencies", level: 2, color: "#C77DFF", border: "#E0AAFF" },
+            { id: 10, trunk: "Intelligence", branch: "ODNI / CIA / NSA", level: 0, color: "#00F5D4", border: "#00BBF9" },
+            { id: 11, trunk: "Intelligence", branch: "FBI / U.S. Marshals", level: 1, color: "#00BBF9", border: "#9B5DE5" },
+            { id: 12, trunk: "Intelligence", branch: "Oregon State Police", level: 2, color: "#F15BB5", border: "#FEE440" },
+            { id: 13, trunk: "Judicial", branch: "SCOTUS", level: 0, color: "#333333", border: "#555555" },
+            { id: 14, trunk: "Judicial", branch: "9th Circuit Court", level: 1, color: "#555555", border: "#888888" },
+            { id: 15, trunk: "Judicial", branch: "WashCo Circuit Court", level: 2, color: "#888888", border: "#CCCCCC" },
+            { id: 16, trunk: "Extractors", branch: "U.S. Chamber / PACs", level: 0, color: "#FFB703", border: "#FB8500" },
+            { id: 17, trunk: "Extractors", branch: "ALEC / NCSL Matrix", level: 1, color: "#FB8500", border: "#FFB703" },
+            { id: 18, trunk: "Extractors", branch: "Oregon Biz & Industry", level: 2, color: "#FFD166", border: "#FFFC31" }
+        ];
+
+        // Explicit structural linkages mapping cross-trunk logic
+        const connections = [
+            { from: 16, to: 4 },  // Private Extractors to Legislative
+            { from: 1, to: 7 },   // Electoral to Executive
+            { from: 10, to: 11 }, // Intelligence routing
+            { from: 11, to: 13 }, // FBI/Marshals to Federal Courts
+            { from: 2, to: 5 },   // State Parties to State Legislatures
+            { from: 17, to: 5 },  // ALEC to State Legislatures
+            { from: 12, to: 15 }  // State Police to Local Circuit Courts
+        ];
+
+        function resize() {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            canvas.width = width * window.devicePixelRatio;
+            canvas.height = height * window.devicePixelRatio;
+            ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+        }
+        window.addEventListener('resize', resize);
+        resize();
+
+        // Interaction event listeners
+        function pointerDown(x) {
+            isDragging = true;
+            previousX = x;
+            velocity = 0;
+            lastTime = Date.now();
+        }
+
+        function pointerMove(x) {
+            if (!isDragging) return;
+            const currentTime = Date.now();
+            const dt = currentTime - lastTime || 1;
+            const deltaX = x - previousX;
+            
+            // Map horizontal drag actions directly onto angular displacement calculations
+            const angularDelta = (deltaX / width) * Math.PI * 2;
+            angle += angularDelta;
+            velocity = angularDelta / dt; // Instantaneous velocity calculation for motion blur
+            
+            previousX = x;
+            lastTime = currentTime;
+        }
+
+        function pointerUp() {
+            isDragging = false;
+        }
+
+        canvas.addEventListener('mousedown', (e) => pointerDown(e.clientX));
+        window.addEventListener('mousemove', (e) => pointerMove(e.clientX));
+        window.addEventListener('mouseup', pointerUp);
+
+        canvas.addEventListener('touchstart', (e) => pointerDown(e.touches[0].clientX));
+        window.addEventListener('touchmove', (e) => pointerMove(e.touches[0].clientX));
+        window.addEventListener('touchend', pointerUp);
+
+        // Core rendering loop
+        function draw() {
+            ctx.clearRect(0, 0, width, height);
+
+            // Establish dynamic spatial values matching screen layout parameters
+            const radius = Math.min(width, height) * 0.35;
+            const centerX = width / 2;
+            const centerY = height / 2;
+
+            // Apply static rotational friction dampening when user touch is absent
+            if (!isDragging) {
+                angle += velocity;
+                velocity += (baseRotationSpeed - velocity) * 0.05; 
+            }
+
+            // Calculate velocity-induced spatial motion blur thresholds
+            const blurAmount = Math.min(Math.abs(velocity) * 150, 12);
+            if (blurAmount > 0.5) {
+                ctx.filter = `blur(${blurAmount}px)`;
+            } else {
+                ctx.filter = 'none';
+            }
+
+            // Calculate 3D transformations for all tracked elements
+            const nodes = dataset.map(item => {
+                // Map the 6 distinct trunks uniformly across a full circle circumference
+                const trunkIds = ["Electoral", "Legislative", "Executive", "Intelligence", "Judicial", "Extractors"];
+                const trunkIndex = trunkIds.indexOf(item.trunk);
+                const theta = (trunkIndex / 6) * Math.PI * 2 + angle;
+
+                // Implement matrix transformations projecting spatial cylinder coordinates
+                const x3d = Math.cos(theta) * radius;
+                const z3d = Math.sin(theta) * radius;
+                
+                // Horizontal tracking relative to system depth layer configurations
+                const xPos = centerX + x3d;
+                const yPos = centerY + (item.level - 1) * (height * 0.22);
+
+                // Use dynamic scale mapping for visual depth tracking calculations
+                const scale = (z3d + radius * 1.5) / (radius * 2.5); 
+                const opacity = Math.max(0.15, (z3d + radius) / (radius * 2));
+
+                return { ...item, x: xPos, y: yPos, z: z3d, scale, opacity };
+            });
+
+            // Sort nodes by Z-index layer depth configuration to prevent layout overlap bugs
+            nodes.sort((a, b) => a.z - b.z);
+
+            // Render logical intersection pathways
+            connections.forEach(conn => {
+                const fromNode = nodes.find(n => n.id === conn.from);
+                const toNode = nodes.find(n => n.id === conn.to);
+
+                if (fromNode && toNode) {
+                    const lineOpacity = Math.min(fromNode.opacity, toNode.opacity) * 0.4;
+                    ctx.beginPath();
+                    ctx.moveTo(fromNode.x, fromNode.y);
+                    ctx.lineTo(toNode.x, toNode.y);
+                    ctx.strokeStyle = `rgba(255, 159, 28, ${lineOpacity})`;
+                    ctx.lineWidth = 1.5 * Math.min(fromNode.scale, toNode.scale);
+                    ctx.stroke();
+                }
+            });
+
+            // Render physical structural nodes
+            nodes.forEach(node => {
+                ctx.save();
+                ctx.globalAlpha = node.opacity;
+
+                const nodeSize = (width < 600 ? 55 : 85) * node.scale;
+
+                // Draw external block boundaries
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, nodeSize / 2, 0, Math.PI * 2);
+                ctx.fillStyle = node.color;
+                ctx.strokeStyle = node.border;
+                ctx.lineWidth = 3 * node.scale;
+                ctx.fill();
+                ctx.stroke();
+
+                // Draw high-contrast textual components
+                ctx.fillStyle = "#FFFFFF";
+                ctx.font = `bold ${Math.max(8, 10 * node.scale)}px sans-serif`;
+                ctx.textAlign = "center";
+                ctx.textBaseline = "middle";
+                
+                // Text wrapping calculations tailored for compact standard displays
+                const words = node.branch.split(" ");
+                if (words.length > 2 && node.scale > 0.6) {
+                    ctx.fillText(words.slice(0, 2).join(" "), node.x, node.y - 6 * node.scale);
+                    ctx.fillText(words.slice(2).join(" "), node.x, node.y + 6 * node.scale);
+                } else {
+                    ctx.fillText(node.branch, node.x, node.y);
+                }
+
+                ctx.restore();
+            });
+
+            requestAnimationFrame(draw);
+        }
+
+        // Initialize display execution
+        requestAnimationFrame(draw);
+    </script>
+</body>
+</html>

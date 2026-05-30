@@ -1,0 +1,104 @@
+:root {
+    --bg-color: #050505;
+    --text-main: #e0e0e0;
+    --accent: #00ff66;
+    --danger: #ff3333;
+    --font-stack: 'Courier New', Courier, monospace;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-stack);
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--accent);
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-bottom: 3rem;
+}
+
+.btn-forward {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 15px 30px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-forward:hover {
+    background-color: var(--accent);
+    color: var(--bg-color);
+    box-shadow: 0 0 15px var(--accent);
+}
+
+#telemetry-console {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #333;
+    padding: 20px;
+    z-index: 100;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    pointer-events: none;
+}
+
+#data-readout {
+    color: #00ccff;
+}
+
+.scrollytelling-container {
+    position: relative;
+    height: 400vh;
+    width: 100%;
+}
+
+.simulation-header {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    z-index: 100;
+    pointer-events: none;
+}
+
+#collapse-meter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.2s ease;
+}
+
+.depth-node {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.3;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
