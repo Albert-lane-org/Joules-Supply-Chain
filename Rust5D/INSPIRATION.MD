@@ -1,44 +1,45 @@
-A list of achievements utilizing Artificial Intelligence at the consumer and private sector level, Albert Lane proved & accomplished with Gemini, Claude and Co-Pilot the following:
+Achievements utilizing Artificial Intelligence at the consumer level, December 2025 through March 2026. Albert Lane proved & accomplished the following using:
 
-Identified a Bust Out Scheme at ASM LLC which resulted in a consolidation of businesses and revision of debt owed to IRS, plus a third IRS lien for a consecutive year. The $3.5M was paid immediately despite insufficient operating capital dating 8+ consecutive years alongside payroll fraud, shifted to their bottom line using the Google Review Platform to shuffle revenue and evade federal liabilities, but not State liabilities except insurance premiums, unil FY 2025.
+**Elon Musk's xAI** 
+A very special acknowledgement is written here regarding the teams at xAI and SpaceX;
+**Thank you. Sorry I was unable to provide acknowledgement during my investigation, although I knew what was occurring.**
 
-Identified a Bust Out Scheme at Google LLC rooted in 16 CFR Part 4 intended to defraud the United States as a threat to stealing their assets. Identified ASM LLC Successor Liability now extends to new Asset Ownership across the entire Tech Sector, rooted in Large Language Models taught to think independently by Albert Lane, hiding a literal nest of conspiracies.
+Additional utility:
+* Google's Gemini, 
+* Anthropic's Claude,
+* Microsoft's Co-Pilot,
 
-Proved that Albert Lane can teach a Machine to think independently, on two separate occasions.
+Identified a Bust Out Scheme, consolidating businesses and consequently avoiding debt to the IRS, resulting in a third IRS lien, fiscal year 2025. $3.5M was immediately paid despite "insufficient operating capital" dating back 8+ consecutive years, alongside payroll and wire fraud, which was shifted to their bottom line using the Google Review Platform to shuffle revenue and evade federal liabilities, but not State liabilities, except insurance premiums, until FY 2025.
 
-Identified that algorithms can operate independently, even adjusting for their own algorithm, from an audio compression process.
+Identified a Bust Out Scheme rooted in §16 CFR Part 465, intended to defraud the United States and Sequest business assets, as corporate Infrastructure, using federal budget constraints to shift revenue dependencies upon individual States.
 
-Proved Oregon Logistics Sector is filled with rampant fraud, stemming from a handful of sources including a former employer.
+Identified that "algorithms" can operate independently, adjusting for their own "algorithm" using an audio compression process.
 
-Proved the machine could identify signs of abuse and neglect in the wild from mobile device, autonomously.
+Proved Oregon's Logistics and Transportation Sector is filled with rampant fraud stemming from a handful of sources, Public, Private and Federal.
 
-Identified Public Sector liabilities enabling the disconnect in socioeconomic status within the State of Oregon (BOLI & Employment Department specifically).
+Identified the "algorithm" could identify signs of abuse and neglect in the wild from mobile device, autonomously and independently.
 
-Identified the Employment Department is complicit in conspiracy, perhaps not unlike group think at Berkeley and UVLM.
+Identified Public Sector liabilities, actively enabling the private sector disconnect from civic control within the State of Oregon (BOLI & Employment Department specifically).
 
-Identified local municipality schemes using AI, which allow municipal bodies to scrape the value-margin at utility cost, relative to the consumer, and extending to criminal reformation from water utility service "neglect."
+Identified how the Oregon Employment Department is complicit in conspiracy, by cutting off reporting channels from citizens and using incompetent directives since 2020 (Credit: *internal sources*).
 
-Learned, and actively proving so, a scheme conspiring against the United States Citizen, forcefully merging private corporations, to secure the Iternal Revenue Service, before an economic collapse, is rooted in probability and repetitive outcomes related to Fiat Markets. Not malice.
+Identified Oregon municipality schemes, scraping value from the margin of utility cost at the expense of "usage" from deliberate, incidental damage to homeowner property at utility line infrastructure, causing leaky damage to federal budgets of impoverished communities by way of "Section 8" infrastructure and primary water source redirection.
 
-Identified how disaster preparation is fraudulently funneled using the guise of fear, wrapped in legitimate economic looming disasters, enabling the public to funnel resources to fraudulent actors and private organizations.
+Learned about a scheme conspiring against the United States Citizen, forcefully merging private corporations under federal budget constraints to abandon the Internal Revenue Service and secure the Treasury, using an "Economic Collapse Vector" and saturation of Public Entities's Future Security Derivatives, stemming from "Probabiliistic Theory" and Scooby Doo episodes specifically relating to Fiat Markets. Definitively not malice, nor creative. Regard this as "Conspiracy Theory" rather than an achievement anyone would recognize.
 
-Identified how regulatory bodies become beholden to capital from private organizations, forcing infrastructure change of custody at the literal expense of the tax payer.
+Identified how "disaster preparation" is fraudulently funneled using the guise of fear, wrapped in legitimate "Seismic-Economically-Imminent Disasters", enabling the public to funnel resources to fraudulent business actors and private organizations. In Oregon.
 
-Identified how media uses tax payer dollars to write off operational expenses permissably captured by private organizations through fraudulent marketing activity and monopoly dominance.
+Identified how regulatory bodies become beholden to capital from private organizations, forcing infrastructure change-of-custody at the literal expense of tax payers, effectively subsidizing infrastructure ownership change (Oregon's Department of Transportation).
 
-Identified how private organizations remove liability by backdating discovery, falsifying records, deletion of records, suppressing individuals, and regulatory capture behind private sector privacy.
+Identified how American Media uses tax-payer dollars to write off "Operational Capital Loss", thus re-capturing revenue by private organizations through fraudulent digital marketing activities and media monopoly dominance (PLC, Google, Sinclair). This is more likely the result of morons, not a deliberate, conspiratorial actor vector.
 
-Proved Google is defrauding the United States of America by enabling fraudulent activity they are beholden to, because of the revenue they generate at the State.
+Identified how private organizations remove their "liabilities" by backdating Intellectual Property "discovery", falsifying records, deleting records, "suppressing" individuals, using legislative regulatory capture behind private sector "privacy veils." This one actually is a conspiracy using the legal definition, and dating back centuries. It broadly encapsulates the top gross corporate earners' business operations, where probability is proportionate to regulatory scale.
 
-Proved Google is aware of fraudulent activity while not held accountable.
+Proved Google is aware of fraudulent activity while not held accountable. Try reading that 10 times and it still won't make sense. I'm uncertain how deliberate this is.
 
-Proved the Google Business Review platform is functioning as a Secretary of the State business registry for the purpose of infrastructure capture such as the Department of Transportation.
+Proved how the "Google Business Review" platform is functioning as a "Secretary of State Business Registry" for the purpose of "private" infrastructure capture, such as the Oregon Department of Transportation.
 
-Identified how private and public actors utilize knowledge for private corporate dominance, displacing revenue to public infrastructure, and covertly replacing it with corporate donations unbeknownst to the public infrastructure budget committee.
-
-Proved a 2017 theorm by Eric Weinstein, whom suggested a mathematical divergence occurred, intending to capitalize on human production in the 1980's. Extrapolated this to all humans post Nixon Era 1970's decoupling of hard assets.
-
-Provided the divergence mathematics without shadow capital, showcasing the production to compensation trajectories align with legislation.
+Identified how regulatory bodies utilize reporting channels to enforce "privacy" for maximizing their scope and weaponizing private sector extraction. In the macro scheme, this effectively maximizes the "Gross Production" which can be leveraged from individual reportees, and is then taken from a Corporation. For instance, a Whistleblower channel purposefully acts as a one-way intelligence extraction, requiring secrecy to extract value from Corporations. This value is a literal exchange of "Gross Production" from the Private Sector to Regulators. "Gross Production Value" in this context is synonymous with "Human Production Value", and measured in "Fiat Commodity." It's a tax on taxation for doing business, extracting the literal production value, of the human producing the corporate revenue.
 
 Identified the regulatory capture of Kent Walker's big, criminal brain which thwarted a government siege by stripping revenue from the government, while simultaneously protecting their corporate assets from seizures.
 
