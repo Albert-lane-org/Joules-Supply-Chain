@@ -18,7 +18,6 @@ named, accountable owner. See `GOVERNANCE.md` for what that means in practice.
 ## Structure
 
 ```
-.
 ├── GOVERNANCE.md              # Repo-level rules derived from DEI-GTT-001
 ├── CONTRIBUTING.md            # How to contribute, including AI-assisted work
 ├── SECURITY.md                # Vulnerability reporting
@@ -42,16 +41,6 @@ named, accountable owner. See `GOVERNANCE.md` for what that means in practice.
   concept name in conversation — unconfirmed whether that's the intended
   title, a codename, or a metaphor for the build sequence (governance first,
   then infrastructure). Repo currently keeps the placeholder name.
-- **License.** `LICENSE` defaults to "all rights reserved," the more
-  restrictive option, because no license type was specified. Replace it if
-  public read access is meant to carry reuse rights (MIT, Apache-2.0, etc.).
-- **CODEOWNERS.** Contains a placeholder — swap in your actual GitHub
-  username(s).
-- **SECURITY.md contact.** Placeholder — add a real reporting address before
-  this repo is fully public.
-- **Repo visibility.** You mentioned it's still being switched to public —
-  everything here was prepared without repo access, so nothing has been
-  pushed or verified against the live repo yet.
 
 ## Provenance
 
