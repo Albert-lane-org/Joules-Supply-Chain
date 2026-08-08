@@ -1,0 +1,27 @@
+name: Verify Governance Manifest
+
+# Fails CI if any file in docs/governance/ has changed without its hash
+# being regenerated in MANIFEST.sha256.txt. This is deliberate friction:
+# if you're legitimately amending the taxonomy (DEI-GTT-001 Part X),
+# regenerate the manifest as part of the same change —
+#   cd docs/governance && sha256sum *.md *.json *.xml *.txt > MANIFEST.sha256.txt
+# (then remove the manifest's own line from itself before committing,
+# or keep a separate manifest-of-manifest if you want it self-inclusive).
+
+on:
+  push:
+    paths:
+      - 'docs/governance/**'
+  pull_request:
+    paths:
+      - 'docs/governance/**'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check governance files against recorded hashes
+        run: |
+          cd docs/governance
+          sha256sum -c MANIFEST.sha256.txt
