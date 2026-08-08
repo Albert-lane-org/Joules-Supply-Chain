@@ -1,0 +1,7 @@
+# Default owner for everything in this repo, unless a later, more
+# specific rule overrides it. Replace the placeholder below with your
+# actual GitHub username (or a team handle) before this takes effect —
+# GitHub silently ignores CODEOWNERS entries that don't resolve to a
+# real user/team, so an unresolved placeholder here does nothing.
+
+* @REPLACE_WITH_YOUR_GITHUB_USERNAME

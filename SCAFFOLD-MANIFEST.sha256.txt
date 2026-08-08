@@ -1,0 +1,18 @@
+# Repo Scaffold — Integrity Manifest
+# Scope: scaffold files only (docs/governance/ has its own MANIFEST.sha256.txt)
+# Generated (UTC): 2026-08-08T17:31:15Z
+
+1fea4f5050f4edf67b154ab6db621fab3fd4a478c4edc90f126e6e4aec19b70c  ./.github/ISSUE_TEMPLATE/bug_report.md
+59d02c7fed7de803701ee6c465d7747612d959d86683df9c6b87ed470b94ac3c  ./.github/ISSUE_TEMPLATE/ground_truth_violation.md
+9979e0e42fb6475826b3f19dde4f967b6060216e745d938a72c467b1a3eb7c73  ./.github/PULL_REQUEST_TEMPLATE.md
+dc017ce56e7cf83ecfc94512a886f136beb88359d191a6b05388dc41b628d4f0  ./.github/workflows/verify-governance-manifest.yml
+8491501db43ce966e4388b144094a961d57832d288fb9483cebe8b78276b1419  ./.gitignore
+5cf4ec17f9cbd7cab8100f5abc9a41621fa835487e48d31d61d2d42b683620fd  ./CODEOWNERS
+60d5eba90b25807abee8f463b1c7f3648f8beb70018c34e998d4e436f1aeecf1  ./CONTRIBUTING.md
+d9721688629bbe866aaa0649b2d7f9062defba3d38a8c60b2a5c4c7357543868  ./GOVERNANCE.md
+b3c365868245a02f477029e42fc35fc0d6a86c1ef2c52c6d330eab045d12e113  ./LICENSE
+4dee0fdaf82bbd61d0d7be4bee50a0b69ecb38d5b2776e4f23adc8aafda2dcef  ./README.md
+d99436b1cc5d72668d03ccf925ba3127744e4405ec84c665c50ceaa00f593618  ./SECURITY.md
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./src/.gitkeep
+
+# Verify with: sha256sum -c SCAFFOLD-MANIFEST.sha256.txt
