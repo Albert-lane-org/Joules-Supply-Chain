@@ -1,0 +1,11 @@
+# Ground Truth Taxonomy — Integrity Manifest
+# Document ID: DEI-GTT-001 · Version: 1.0.0
+# Generated (UTC): 2026-08-08T03:57:49Z
+# Chain-of-custody record — one SHA-256 line per finalized artifact.
+
+396caeeb889cca3abd95797de3664245897fc0dc90198c5929c4352485b82ff4  GROUND-TRUTH-TAXONOMY.md
+8da0e705b210d763d5605426a5929e09ffa1aaf0a278869261059e4227191dff  ground-truth-taxonomy.json
+29ed150edf400f787445825d2cf2d60269a8eb0b94fe542a76446d71a5dc2c17  ground-truth-taxonomy.xml
+a391625b4cc9e4f486d0453d7c92dfd0425f9c9da96f56a15245ae09d8d8b72b  ground-truth-taxonomy.patterns.txt
+
+# Verify with: sha256sum -c MANIFEST.sha256.txt
