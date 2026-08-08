@@ -4,7 +4,7 @@
 
 Please report security issues privately rather than through a public issue.
 
-Contact: `REPLACE_WITH_SECURITY_CONTACT` — placeholder, add a real reporting
+Contact: `gmail@albertlane.net` — placeholder, add a real reporting
 address before this repo is fully public.
 
 Include what you found, how to reproduce it, and its potential impact.
