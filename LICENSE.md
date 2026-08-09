@@ -7,7 +7,7 @@
 **Governing Jurisdiction (Primary):** State of Oregon, United States of America
 **Governing Jurisdiction (Secondary):** England and Wales, United Kingdom
 **Filing Reference:** SEC Whistleblower No. 17684-273-411-436
-**Contact:** gmail@albertlane.net
+**Contact:** albertlane.net
 
 ---
 
