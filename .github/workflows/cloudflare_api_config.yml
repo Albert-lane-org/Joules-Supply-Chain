@@ -12,25 +12,34 @@ jobs:
     steps:
       - name: Fetch Account Subdomain & Worker Endpoint
         run: |
-          SUBDOMAIN=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" \
-            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | grep -o '"subdomain":"[^"]*' | cut -d'"' -f4)
-          
-          echo "========================================================="
-          echo "LIVE WORKER ENDPOINT: https://lane-vm-sovereign-worker.$SUBDOMAIN.workers.dev"
-          echo "========================================================="
+          RESPONSE=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+          echo "Subdomain Response: $RESPONSE"
 
-      - name: Disable Security Challenge for Provenance Path on albertlane.net
+      - name: Create WAF Bypass Rule for Provenance Path
         run: |
           ZONE_ID=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=albertlane.net" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | grep -o '"id":"[^"]*' | head -n 1 | cut -d'"' -f4)
           
+          echo "Zone ID: $ZONE_ID"
+          
           if [ -n "$ZONE_ID" ]; then
-            echo "Zone ID found: $ZONE_ID. Setting security level to allow API/JSON-LD traffic..."
-            curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/settings/security_level" \
+            # Deploy a custom ruleset entry to bypass security checks for the JSON-LD path
+            curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/rulesets/phases/http_request_firewall_custom/entrypoint" \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               -H "Content-Type: application/json" \
-              -d '{"value": "essentially_off"}'
-            echo "WAF security level updated successfully."
-          else
-            echo "Could not fetch Zone ID for albertlane.net. Verify API token zone permissions."
+              -d '{
+                "rules": [
+                  {
+                    "action": "skip",
+                    "action_parameters": {
+                      "bic": true,
+                      "hot": true,
+                      "security_level": true
+                    },
+                    "expression": "(http.request.uri.path eq \"/.provenance.jsonld\")",
+                    "description": "Allow CLI access to provenance jsonld"
+                  }
+                ]
+              }'
           fi
