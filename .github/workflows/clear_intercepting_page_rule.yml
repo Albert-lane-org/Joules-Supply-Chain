@@ -1,0 +1,43 @@
+name: Clear Intercepting Page Rule and Attach Custom Domain
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cleanup-page-rules:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - name: 1. Delete albertlane.net/* Page Rule
+        run: |
+          ZONE_ID="80a9f1b37935fb33771c241be1172699"
+
+          RULES=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/pagerules" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+
+          # Find rule matching albertlane.net/* exactly
+          RULE_ID=$(echo "$RULES" | jq -r '.result[] | select(.targets[0].constraint.value == "albertlane.net/*") | .id')
+
+          echo "Target Page Rule ID: $RULE_ID"
+
+          if [ -n "$RULE_ID" ] && [ "$RULE_ID" != "null" ]; then
+            curl -s -X DELETE "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/pagerules/$RULE_ID" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN"
+            echo "Intercepting Page Rule deleted."
+          fi
+
+      - name: 2. Attach Worker Custom Domain
+        run: |
+          ZONE_ID="80a9f1b37935fb33771c241be1172699"
+
+          curl -s -X PUT "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/domains" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"zone_id\": \"$ZONE_ID\",
+              \"hostname\": \"provenance.albertlane.net\",
+              \"service\": \"lane-vm-sovereign-worker\",
+              \"environment\": \"production\"
+            }"
