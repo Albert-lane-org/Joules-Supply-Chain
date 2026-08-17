@@ -1,0 +1,38 @@
+name: Patch Page Rule Settings
+
+on:
+  workflow_dispatch:
+
+jobs:
+  patch-rule:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Disable Browser Integrity Check via Page Rule API
+        run: |
+          ZONE_ID="80a9f1b37935fb33771c241be1172699"
+
+          # 1. Fetch Page Rules to locate rule ID
+          RULES=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/pagerules" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+
+          RULE_ID=$(echo "$RULES" | jq -r '.result[] | select(.targets[0].constraint.value == "albertlane.net/*") | .id')
+
+          echo "Found Target Rule ID: $RULE_ID"
+
+          if [ -n "$RULE_ID" ] && [ "$RULE_ID" != "null" ]; then
+            # 2. PATCH rule to set browser_integrity_check to off
+            RESPONSE=$(curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/pagerules/$RULE_ID" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "actions": [
+                  {
+                    "id": "browser_integrity_check",
+                    "value": "off"
+                  }
+                ]
+              }')
+            echo "PATCH Result: $RESPONSE"
+          fi
