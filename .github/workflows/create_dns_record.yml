@@ -1,0 +1,31 @@
+name: Create Cloudflare DNS Record for Worker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  create-dns:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Add CNAME for provenance.albertlane.net
+        run: |
+          ZONE_ID=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=albertlane.net" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | grep -o '"id":"[^"]*' | head -n 1 | cut -d'"' -f4)
+
+          echo "Target Zone ID: $ZONE_ID"
+
+          if [ -n "$ZONE_ID" ]; then
+            RESPONSE=$(curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "type": "CNAME",
+                "name": "provenance",
+                "content": "lane-vm-sovereign-worker.albertlane.workers.dev",
+                "ttl": 1,
+                "proxied": true
+              }')
+            echo "DNS Record Response: $RESPONSE"
+          fi
