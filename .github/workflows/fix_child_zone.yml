@@ -1,0 +1,49 @@
+name: Disable Security on Provenance Child Zone
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fix-child-zone:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Fetch Child Zone ID & Lower Security
+        run: |
+          # 1. Fetch exact Zone ID for provenance.albertlane.net
+          CHILD_ZONE_ID=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=provenance.albertlane.net" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | jq -r '.result[0].id')
+
+          echo "Target Child Zone ID: $CHILD_ZONE_ID"
+
+          if [ -n "$CHILD_ZONE_ID" ] && [ "$CHILD_ZONE_ID" != "null" ]; then
+            # 2. Set Security Level to Essentially Off
+            curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$CHILD_ZONE_ID/settings/security_level" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d '{"value": "essentially_off"}'
+
+            # 3. Add WAF Custom Skip Rule directly on the child zone
+            curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$CHILD_ZONE_ID/rulesets/phases/http_request_firewall_custom/entrypoint" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "rules": [
+                  {
+                    "action": "skip",
+                    "action_parameters": {
+                      "bic": true,
+                      "security_level": true,
+                      "managed_challenge": true,
+                      "js_challenge": true
+                    },
+                    "expression": "(true)",
+                    "description": "Global skip rule for child zone"
+                  }
+                ]
+              }'
+            echo "Child zone security disabled."
+          else
+            echo "Child zone 'provenance.albertlane.net' not found separately."
+          fi
