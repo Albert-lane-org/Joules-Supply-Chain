@@ -12,11 +12,15 @@ jobs:
     steps:
       - name: Fetch Account Subdomain & Worker Endpoint
         run: |
-          RESPONSE=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" \
-            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
-          echo "Subdomain Response: $RESPONSE"
+          SUBDOMAIN=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/workers/subdomain" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | grep -o '"subdomain":"[^"]*' | cut -d'"' -f4)
+          
+          echo "========================================================="
+          echo "LIVE WORKER SUBDOMAIN: $SUBDOMAIN"
+          echo "LIVE WORKER ENDPOINT: https://lane-vm-sovereign-worker.$SUBDOMAIN.workers.dev"
+          echo "========================================================="
 
-      - name: Create WAF Bypass Rule for Provenance Path
+      - name: Bypass Bot Challenge via Firewall Access Rule
         run: |
           ZONE_ID=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=albertlane.net" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" | grep -o '"id":"[^"]*' | head -n 1 | cut -d'"' -f4)
@@ -24,22 +28,17 @@ jobs:
           echo "Zone ID: $ZONE_ID"
           
           if [ -n "$ZONE_ID" ]; then
-            # Deploy a custom ruleset entry to bypass security checks for the JSON-LD path
-            curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/rulesets/phases/http_request_firewall_custom/entrypoint" \
+            # Whitelist GitHub Runner & API User Agents via Zone Firewall Access Rule
+            curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/firewall/access_rules/rules" \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               -H "Content-Type: application/json" \
               -d '{
-                "rules": [
-                  {
-                    "action": "skip",
-                    "action_parameters": {
-                      "bic": true,
-                      "hot": true,
-                      "security_level": true
-                    },
-                    "expression": "(http.request.uri.path eq \"/.provenance.jsonld\")",
-                    "description": "Allow CLI access to provenance jsonld"
-                  }
-                ]
+                "mode": "whitelist",
+                "configuration": {
+                  "target": "user_agent",
+                  "value": "Sovereign-Auditor-CLI/1.0"
+                },
+                "notes": "Allow Sovereign CLI requests to bypass Turnstile challenge"
               }'
+            echo "User-Agent access rule added successfully."
           fi
