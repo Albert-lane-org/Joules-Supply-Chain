@@ -22,6 +22,9 @@ on:
 jobs:
   provenance-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - name: Checkout Sovereign Repository
         uses: actions/checkout@v4
@@ -45,9 +48,6 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: deploy --config wrangler.jsonc
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
       - name: Dispatch Bidirectional Webhook to AI Studio Sentry
         if: always()
@@ -56,4 +56,4 @@ jobs:
           curl -X POST "${{ secrets.APP_URL }}/api/scaffold/webhook/github" \
             -H "Content-Type: application/json" \
             -H "X-LANE-Provenance-Magic: 0x3F8F9A1B2C3D" \
-            -d '{"event":"github_action_completed","repo":"Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2","status":"success"}' || true
+            -d '{"event":"github_action_completed","repo":"Albert-lane-org/Joules-Supply-Chain","status":"success"}' || true
