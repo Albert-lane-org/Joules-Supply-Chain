@@ -1,0 +1,37 @@
+name: Disable Browser Integrity Check across All Page Rules
+
+on:
+  workflow_dispatch:
+
+jobs:
+  disable-bic:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Fetch and Patch All Zone Page Rules
+        run: |
+          ZONE_ID="80a9f1b37935fb33771c241be1172699"
+
+          # 1. Get all Page Rule IDs for the zone
+          RULES_JSON=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/pagerules" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+
+          RULE_IDS=$(echo "$RULES_JSON" | jq -r '.result[].id')
+
+          # 2. Iterate through each rule and set browser_integrity_check to "off"
+          for RULE_ID in $RULE_IDS; do
+            echo "Patching Page Rule: $RULE_ID"
+            RESPONSE=$(curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/pagerules/$RULE_ID" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "actions": [
+                  {
+                    "id": "browser_integrity_check",
+                    "value": "off"
+                  }
+                ]
+              }')
+            echo "Result for $RULE_ID: $(echo "$RESPONSE" | jq -c '{success: .success, errors: .errors}')"
+          done
