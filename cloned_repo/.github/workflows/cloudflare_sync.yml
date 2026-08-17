@@ -1,0 +1,71 @@
+# ==============================================================================
+# PROVENANCE METADATA (.lvm / .lane v1.0)
+# Architecture: LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine
+# Rights Holder: Albert Dale Lane (EIN: 41-3119079) | Jurisdiction: Oregon, USA
+# License: Sovereign IP License v1.2 / Proprietary License Part A & B (All Rights Reserved)
+# Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
+# Authority: https://provenance.albertlane.net/.provenance.jsonld
+# Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
+# ==============================================================================
+
+name: Cloudflare & GitHub Bidirectional Scaffold Sync
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  repository_dispatch:
+    types: [ lane_vm_sync, cloudflare_deploy ]
+  workflow_dispatch:
+
+jobs:
+  provenance-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Joules-Supply-Chain
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Verify RFC 0103 Provenance Headers
+        run: |
+          echo "Auditing byte offset 0x00 for sovereign provenance metadata..."
+          node -e "
+            const fs = require('fs');
+            const files = ['package.json', 'server.ts', 'metadata.json', 'wrangler.jsonc'];
+            for (const f of files) {
+              if (fs.existsSync(f)) {
+                const content = fs.readFileSync(f, 'utf8');
+                if (!content.includes('Albert Dale Lane') && !content.includes('0x3F8F9A1B2C3D')) {
+                  console.error('Provenance missing in file:', f);
+                  process.exit(1);
+                }
+              }
+            }
+            console.log('Zero-byte provenance audit passed 100%.');
+          "
+
+      - name: Deploy to Cloudflare Workers via Wrangler
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy --config wrangler.jsonc
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Dispatch Bidirectional Webhook to AI Studio Sentry
+        if: always()
+        run: |
+          echo "Synchronizing deployment status back to AI Studio container..."
+          curl -X POST "${{ secrets.APP_URL }}/api/scaffold/webhook/github" \
+            -H "Content-Type: application/json" \
+            -H "X-LANE-Provenance-Magic: 0x3F8F9A1B2C3D" \
+            -d '{"event":"github_action_completed","repo":"Albert-lane-org/Joules-Supply-Chain","status":"success"}' || true

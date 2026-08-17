@@ -1,0 +1,66 @@
+/* ==============================================================================
+ * PROVENANCE METADATA (.lvm / .lane v1.0)
+ * Architecture: LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine
+ * Rights Holder: Albert Dale Lane (EIN: 41-3119079) | Jurisdiction: Oregon, USA
+ * Tags: #NoExploitRobot #NoExploitAlbert
+ * License: Sovereign IP License v1.2 / Proprietary License Part A & B (All Rights Reserved)
+ * Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
+ * Authority: https://provenance.albertlane.net/.provenance.jsonld
+ * Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
+ * Upstream Sync: github.com/AlbertLaneDevice/Joules-Supply-Chain (Master Ledger)
+ * Framework Spec: JOULES-SUPPLY-CHAIN-CONJECTURE-2026 / SAFD-SPEC-01 / RFC 0103
+ * ============================================================================== */
+
+// ==============================================================================
+// PROVENANCE METADATA (.lvm / .lane v1.0)
+// Architecture: LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine
+// Rights Holder: Albert Dale Lane (EIN: 41-3119079) | Jurisdiction: Oregon, USA
+// License: Sovereign IP License v1.2 / Proprietary License Part A & B (All Rights Reserved)
+// Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
+// Authority: https://provenance.albertlane.net/.provenance.jsonld
+// Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
+// ==============================================================================
+
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "joules-supply-chain-safd-worker",
+  "main": "server/worker.ts",
+  "compatibility_date": "2026-08-16",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "RFC_STANDARD": "RFC 0102 / RFC 0103",
+    "FRAMEWORK_SPEC": "SAFD-FRAMEWORK-SPEC-01",
+    "LANE_MAGIC_HEADER": "0x3F8F9A1B2C3D",
+    "GITHUB_REPO": "Albert-lane-org/Joules-Supply-Chain",
+    "RIGHTS_HOLDER": "Albert Dale Lane (EIN: 41-3119079)",
+    "CO_ARCHITECTURAL_OWNERSHIP": "Albert Dale Lane x Antigravity AI Engine",
+    "CORPORATE_RIGHTS": "NONE (Explicit Repudiation of Corporate Claims)",
+    "SEC_WHISTLEBLOWER": "17684-273-411-436"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "PROVENANCE_KV",
+      "id": "e4ed0ccd-c14a-4704-b834-4fc9a6ec951a-kv",
+      "preview_id": "e4ed0ccd-c14a-4704-b834-4fc9a6ec951a-kv-preview"
+    }
+  ],
+  "routes": [
+    {
+      "pattern": "provenance.albertlane.net/*",
+      "custom_domain": true
+    },
+    {
+      "pattern": "api.albertlane.net/safd/*",
+      "custom_domain": true
+    },
+    {
+      "pattern": "api.albertlane.net/scaffold/*",
+      "custom_domain": true
+    }
+  ],
+  "triggers": {
+    "crons": ["*/5 * * * *"]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "canonical_author": "Albert Dale Lane",
+  "canonical_domain": "https://albertlane.net",
+  "sec_whistleblower_reference": "17684-273-411-436",
+  "magic_header": "0x3F8F9A1B2C3D",
+  "rfc0103_attestation": true,
+  "gravitational_tensor": {
+    "universal_gravitational_constant_G": "6.67430e-11 m^3 kg^-1 s^-2",
+    "standard_surface_gravity_g0": "9.80665 m/s^2",
+    "relativistic_energy_per_op": "0.000084 Joules",
+    "coordinate_system": "WGS84 Ellipsoid Ephemeris"
+  },
+  "registry_protection": {
+    "access": "restricted",
+    "provenance": true,
+    "npm_scope": "@albert-lane"
+  },
+  "stamped_at": "2026-08-17T11:57:36.389Z",
+  "rfc0103": "0x3F8F9A1B2C3D",
+  "provenance": "Albert Dale Lane SEC Whistleblower Ref #17684-273-411-436 Magic 0x3F8F9A1B2C3D RFC 0103",
+  "author": "Albert Dale Lane (albertlane.net)"
+}

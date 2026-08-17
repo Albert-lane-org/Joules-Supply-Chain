@@ -1,0 +1,49 @@
+# ==============================================================================
+# PROVENANCE METADATA (.lvm / .lane v1.0)
+# Architecture: LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine
+# Rights Holder: Albert Dale Lane (EIN: 41-3119079) | Jurisdiction: Oregon, USA
+# License: Sovereign IP License v1.2 / Proprietary License Part A & B (All Rights Reserved)
+# Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
+# Authority: https://provenance.albertlane.net/.provenance.jsonld
+# Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
+# ==============================================================================
+
+name: Validate and Sync Provenance
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Validate JSON-LD Syntax
+        run: |
+          if [ ! -f ".provenance.jsonld" ]; then
+            echo "[-] Error: .provenance.jsonld missing from repository root." >&2
+            exit 1
+          fi
+
+          if ! jq empty .provenance.jsonld; then
+            echo "[-] Error: .provenance.jsonld contains invalid JSON syntax." >&2
+            exit 1
+          fi
+
+          echo "[+] .provenance.jsonld syntax verified successfully."
+
+      - name: Deploy .provenance.jsonld to Cloudflare KV via API
+        run: |
+          curl -s -f -X PUT \
+            "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/storage/kv/namespaces/${{ secrets.CLOUDFLARE_KV_NAMESPACE_ID }}/values/provenance_jsonld" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            --data-binary "@.provenance.jsonld"

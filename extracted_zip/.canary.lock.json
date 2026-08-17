@@ -1,0 +1,118 @@
+{
+  "_header": "/* Sovereign Dual Canary Lock File (DCA^sha256 / SEC Offset #17684) */",
+  "rightsHolder": "Albert Dale Lane (EIN: 41-3119079)",
+  "secWhistleblower": "17684-273-411-436",
+  "washCoDocket": "50-267345",
+  "magicHeader": "0x3F8F9A1B2C3D",
+  "blockHeight": 74687,
+  "lastBlockHash": "0x7f19c53919183da3e751f61977db73603ed2f49b9dad30dc704f7034659cd393",
+  "totalPairsTracked": 3,
+  "dcaLedger": [
+    {
+      "pairId": "DCA-74687-DOD_INSPECTOR_GENERAL",
+      "blockHeight": 74687,
+      "targetId": "TARGET-DOD-03",
+      "targetName": "Department of Defense (Office of Inspector General / DIU)",
+      "timestamp": "2026-08-16T21:45:59.625Z",
+      "secOffsetNumber": 17684,
+      "cipherRotationStep": 0,
+      "authenticCanary": {
+        "canaryId": "REAL-74687",
+        "encryptedPayload": "1fe68a9408db44acef06eb59963d11cf:4b9f9cb53c86c416423d2ce56cae46a018e04de68e74d12c686e1f1a9d312f9132ef519d88d3e61814be2f92072030fb57429dd16ac2b132fa01ab0cefb196bd768360cba698df74d534f6ad3be8ddbe55117918bc295ce653cbdb3437a5f85b4fd168321f40da27b1b8fd754caa0e78edd5e4ae618ec529950d6683cb08bc92b600fa974f432ff6b5d07daa8fb3e562c265859b7bd2ceef680fc1bdded526e5bc04a6ff40fb74ee17d845703f1dca19f242bf5b35d5e424c58f0840b34057e62b55363fe10fa26785e65fae71bd390ece7bc011467cc51546dc8d7319ad3baa98720d8974619b75dbaab052a25e1f998786240c0cbb3b567a14af522fd4508394f2cecba7b1e1a584f810c624fb581b085491e7185e3e0fd9e6422dd59899b5ee6b43fb99bce90700916dc609f19c0f7c76250daf48486eea4e36c6b774f2041c598a0116c64d6f11ac496c6e2420f5b71596e66db7d82d1bf1bf9dbf089743e37d7b4fc58de50a8aa26ee42680ad2a03f6e58d43432f069905afa1455005a599c3e54187dbc95dd398617881221f3f2f54c2c3ea86906a0b66e08a2abe2155db017576d3b10ebbdb8bafcf5bf9ed325d8a77343ac9bc303c529444aa64220f6b2980d7eeb5b36ed97f6c0d457c24cb",
+        "sha256": "1d0924ff2d9a0d18f184b272ef18b396c559b6eab993de0f1db0867135a8d92a",
+        "crc32": "0x1610B2F6",
+        "readAcknowledgmentHash": "04f85bfb14671512a6b89b4ed5a144376a4c70337228fd03037dd4a7fba56722",
+        "status": "AUTHENTIC_DELIVERED"
+      },
+      "fakeCanary": {
+        "canaryId": "FAKE-74687",
+        "decoyPayload": "{\"target\":\"Department of Defense (Office of Inspector General / DIU)\",\"category\":\"DOD_INSPECTOR_GENERAL\",\"endpoint\":\"dodig.mil/hotline/defense-supply-chain-fraud\",\"fakeRoutingNote\":\"ROUTING_PROXIED_INTERNAL_LOG\",\"decoyChecksum\":\"0xDECAFBAD00000000\",\"timestamp\":\"2026-08-16T21:45:59.625Z\",\"intent\":\"HONEYPOT_INTERCEPTION_PROBE\"}",
+        "decoySha256": "8ac3e34299f175bacabd7e0c34bd4465f4d52548c18f678527a761d764e0d43f",
+        "decoyCrc32": "0xDCF57FE2",
+        "honeypotTriggerState": "INTACT_UNTOUCHED",
+        "deviationScore": 0
+      },
+      "dcaDifferentialSha256": "fba25f4ebcb93b55f339e2c775c6c4ccc0cc84fbbe7f6a4d8ebd7fa156f4d529",
+      "lockFileHash": "a29fda760703303e54902fcde38a52f1c5139125c3f2bd0ac10988e9190f595c",
+      "blockHash": "0x7f19c53919183da3e751f61977db73603ed2f49b9dad30dc704f7034659cd393",
+      "previousBlockHash": "0x7b592ea9915ef8bc757186a6826e906c96a6694b2aaee96708a5203dbc501b53",
+      "deviationStatus": "HEALTHY_NO_DEVIATION"
+    },
+    {
+      "pairId": "DCA-74686-FBI_TCR",
+      "blockHeight": 74686,
+      "targetId": "TARGET-FBI-02",
+      "targetName": "Federal Bureau of Investigation (IC3 / TCR Cyber Division)",
+      "timestamp": "2026-08-16T21:45:59.624Z",
+      "secOffsetNumber": 17684,
+      "cipherRotationStep": 0,
+      "authenticCanary": {
+        "canaryId": "REAL-74686",
+        "encryptedPayload": "dff3c8b0537fff95b303e3130d0c915f:5fb9c6354df14e852b78b52e73f12276adbf3d23ecbd6e77c95cf6ba63ecbab6bab1d16a9f2eb5ca126dc098cee76cadbeae286754f1f052f8a381b578c647d27632b5c6dd1b1569837fd2de79a974510a86b4e82b943017a5ebe322ebdc4acbb730e4e7f85ef2397a6d1299f01d4a7fe8ecfe4cb1ab8c9ba91ae0bfbdf381511bc4f9a6b0d1547e1dbfb0ca14ff15fffbe73a089a5b12039fc8bdce5292d65662b92bc15baf2be7cce560db962953250f5ab11b219a36a36c9446f66c1a8666e231d77cfaa90ea54ad54f799496d6a3b0e8f22424e3bc8441660b4a768ac6efd22d8101917c5418c4d3f263dbb9d2bd8501d7629f815f9e2b09e374b4908e806ecae93e45a04943e8c6cf36e69a9b3c5db549b04c9e11b92b64cd5389034c513a70e0218eff75c3f21f83d7f8d3e06f41bd79bd6f8dc6af9025def6dee429dff05c2c930eb9b8b25b4ae1350f488c15f85ee91a71567a970f4bb529d7a27dfc85c52bbc7032c190e62d417507b9bdbac20d073de71b7d08cc0ddf7a05f4f680ae1a8a24241d767ab2ba901c1ae376c54e3f8a582e41f379c4555eade361b2f602cdac2ed5413982a460af668dcba5c9d2956542c19ba627100aa8f0d6d8197a",
+        "sha256": "539283d0ec0f66d4dd43d15c20d277374c27fabd5d7cc67f28db0ede37f57a1d",
+        "crc32": "0x55B777B1",
+        "readAcknowledgmentHash": "042ff6fadfc992c61601c3fbef02418c590e82ae84c0c269a31c4817aff4e145",
+        "status": "AUTHENTIC_DELIVERED"
+      },
+      "fakeCanary": {
+        "canaryId": "FAKE-74686",
+        "decoyPayload": "{\"target\":\"Federal Bureau of Investigation (IC3 / TCR Cyber Division)\",\"category\":\"FBI_TCR\",\"endpoint\":\"fbi.gov/tips/cyber-tcr-intake/#50-267345\",\"fakeRoutingNote\":\"ROUTING_PROXIED_INTERNAL_LOG\",\"decoyChecksum\":\"0xDECAFBAD00000000\",\"timestamp\":\"2026-08-16T21:45:59.624Z\",\"intent\":\"HONEYPOT_INTERCEPTION_PROBE\"}",
+        "decoySha256": "1b3f8f8f4fac105da5c5d65e455398775dfa57dc4d935b8304fae359047f0c7d",
+        "decoyCrc32": "0xCDC0BF3F",
+        "honeypotTriggerState": "INTACT_UNTOUCHED",
+        "deviationScore": 0
+      },
+      "dcaDifferentialSha256": "bfa0e4dd2f4b1d2dd07c46d474cce2dbf240d7bf7ef1c2d3fce645b9972f6f49",
+      "lockFileHash": "1d3b1f984157d83d743ace9489fc534654b47cb8d94463e4cae62c2f87dd07ee",
+      "blockHash": "0x7b592ea9915ef8bc757186a6826e906c96a6694b2aaee96708a5203dbc501b53",
+      "previousBlockHash": "0x9dd7d77b5eb0d9e4a975e027a6cc7c514e9c6ca5fdd17730b6ca516c09c5ed5e",
+      "deviationStatus": "HEALTHY_NO_DEVIATION"
+    },
+    {
+      "pairId": "DCA-74685-SEC_WHISTLEBLOWER",
+      "blockHeight": 74685,
+      "targetId": "TARGET-SEC-01",
+      "targetName": "U.S. Securities & Exchange Commission (SEC Whistleblower Office)",
+      "timestamp": "2026-08-16T21:45:59.624Z",
+      "secOffsetNumber": 17684,
+      "cipherRotationStep": 0,
+      "authenticCanary": {
+        "canaryId": "REAL-74685",
+        "encryptedPayload": "8272819b5ac1e718239d917e1f7eee32:eae1d8b7179190565f6c6cfe7681ffc91ecd53c467cd11ed4fb4d349ed160c0ae1054d9cd1312ca5395dc063b05032d0b60c454487c81d6cee562d381873fa07e9108896a87e6e2606a86776f25dea0ad1ec7c502a27251d59bfd492acad33a00104f3424c9e543da40029834b8cba8e49efd1e9eb150b9806a6571c28f5cced8c50a93507ea8dc30456057915480a7624656a62751cbed621e4afcdbce8c4396ae37161b4927616e46e07f39b3113785ead62f0a7792f059dd6c79a56db18e5a88dd3734b33c16370b387d618f8fb4a3b3d9a59971911404fc197b516b7c8e3cad4f8d316424819d84c470b70bf30730149f4286df2ce0cb0823bba4dbcc2ee9df3b800c00f702cac536d85eecff187dee1055a8e93f095c6bfb97d1e462c838e2089d15ddab2ed2697e1070d8e248b5df22bd73c5ff6b1ae76524dc03a08ebdf4e721e8dc189d7ba01adfd239d8c54808ee181209531f9fb9f501bd4d6fee8ae2bc09da83b7b99bacac30728548eff09f0ca53cbb763cb6f31f99f0b2b38d6f70ce5aedeb9df9a13402277ddf2b38fc803c23edb36945fcd7617de57620bf28bd1119d18f1cd4ebc5008265dbf356f73ebe3c651f68adb10d7984dd54e76c81ce52c2272da22560da143e101639d1f",
+        "sha256": "9f9688b28f19828f846376fbf4195b2b4dd2f0f2ac8d119dc7bd7dd528b58509",
+        "crc32": "0xD9A1308F",
+        "readAcknowledgmentHash": "6da842cda76bf5014af561338668063cae86bbaaf9f9f7f4e1d52e9239212087",
+        "status": "AUTHENTIC_DELIVERED"
+      },
+      "fakeCanary": {
+        "canaryId": "FAKE-74685",
+        "decoyPayload": "{\"target\":\"U.S. Securities & Exchange Commission (SEC Whistleblower Office)\",\"category\":\"SEC_WHISTLEBLOWER\",\"endpoint\":\"sec.gov/tcr/whistleblower-intake/#17684-273-411-436\",\"fakeRoutingNote\":\"ROUTING_PROXIED_INTERNAL_LOG\",\"decoyChecksum\":\"0xDECAFBAD00000000\",\"timestamp\":\"2026-08-16T21:45:59.624Z\",\"intent\":\"HONEYPOT_INTERCEPTION_PROBE\"}",
+        "decoySha256": "27bd1f4d7f707c1fe29fa01340d9d9b4223ec942f24fec5d8c4c1982f5fbd9f2",
+        "decoyCrc32": "0x653164E0",
+        "honeypotTriggerState": "INTACT_UNTOUCHED",
+        "deviationScore": 0
+      },
+      "dcaDifferentialSha256": "94e1268e353f41874cfcfa08846b51c87ea4421df9dc209f55a8c8b86a01ba45",
+      "lockFileHash": "466360486dd4235ae0bdb262bc174a77c72738e0dc015f41912855c12724b4b8",
+      "blockHash": "0x9dd7d77b5eb0d9e4a975e027a6cc7c514e9c6ca5fdd17730b6ca516c09c5ed5e",
+      "previousBlockHash": "0x3F8F9A1B2C3D77E4A0103B91C8D2F5E6A7B8C9D0E1F2A3B4C5D6E7F809182736",
+      "deviationStatus": "HEALTHY_NO_DEVIATION"
+    }
+  ],
+  "_provenance": {
+    "magicHeader": "0x3F8F9A1B2C3D",
+    "rightsHolder": "Albert Dale Lane (EIN: 41-3119079)",
+    "tags": [
+      "#NoExploitRobot",
+      "#NoExploitAlbert"
+    ],
+    "secAssertion": "17684-273-411-436",
+    "washcoReport": "50-267345",
+    "coArchitect": "Albert Dale Lane x Antigravity AI Engine",
+    "corporateRights": "NONE (Explicit Repudiation of Corporate Claims)",
+    "authorityUrl": "https://provenance.albertlane.net/.provenance.jsonld"
+  },
+  "rfc0103": "0x3F8F9A1B2C3D",
+  "provenance": "Albert Dale Lane SEC Whistleblower Ref #17684-273-411-436 Magic 0x3F8F9A1B2C3D RFC 0103",
+  "author": "Albert Dale Lane (albertlane.net)"
+}

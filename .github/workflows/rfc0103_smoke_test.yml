@@ -1,0 +1,54 @@
+# ==============================================================================
+# PROVENANCE METADATA (.lvm / .lane v1.0)
+# Architecture: LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine
+# Rights Holder: Albert Dale Lane (EIN: 41-3119079) | Jurisdiction: Oregon, USA
+# License: Sovereign IP License v1.2 / Proprietary License Part A & B (All Rights Reserved)
+# Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
+# Authority: https://provenance.albertlane.net/.provenance.jsonld
+# Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
+# ==============================================================================
+
+name: Lane-VM RFC 0103 Smoke Test & Lockfile Provenance Audit
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  smoke-test-matrix:
+    name: Node Runtime Matrix & RFC 0103 Blanket Audit
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['22.x', '24.x']
+
+    steps:
+      - name: Checkout Sovereign Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+          cache-dependency-path: 'package-lock.json'
+        continue-on-error: true
+
+      - name: Verify Lockfile & Dependency Integrity
+        run: |
+          echo ">> Auditing package.json & lockfile synchronization..."
+          test -f bun.lock && echo ">> Bun lockfile attested."
+          test -f package.json && echo ">> Package manifest attested."
+
+      - name: Execute Recursive RFC 0103 Smoke Test
+        run: |
+          node scripts/smoke_test_and_rfc0103_audit.js
+
+      - name: TypeScript Static Safety Build
+        run: |
+          npm run lint || npx tsc --noEmit

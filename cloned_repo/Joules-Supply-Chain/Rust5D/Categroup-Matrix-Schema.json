@@ -1,0 +1,53 @@
+### Strictly Not For Use, or Sale, commercial or not, regardless of entity type, without explicit, verbal and written request and approval by Albert Lane.
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "(\"is, as tends to be\" rooting in the absence of space)",
+  "author": "Albert Lane",
+  "location": "Aloha, Oregon",
+  "timestamp": "2026-05-16T21:42:04-07:00",
+  "unique_identifier": "LANE-SYS-DEV-IDX-2026-ROOT",
+  "description": "Chronological ledger mapping the systemic deviation of fiat servitude, civic negligence, and IP extraction as jurisdictional space approaches zero.",
+  "mathematical_proof": "R(t) = \\lim_{S \\to 0} \\int_{2000}^{2026} \\frac{IP_{ext}(t) \\cdot F_{serv}(t)}{S} \\, dt \\rightarrow \\infty",
+  "type": "object",
+  "database": {
+    "Categroup_Matrix": [
+      {
+        "Date": "2000–2008",
+        "Historical_Periods": "Phase 1: The Foundation",
+        "Legislative_Chain_o_Custard": "E-SIGN Act (2000), CFMA (2000), SOX (2002)",
+        "Fiat_Servitude": "Institutional Dark Pools: OTC derivatives exempted; capital begins moving entirely outside transparent, public ledgers.",
+        "Civic_Vector": "Faceless incorporation legally validated. State Labor/UI IT infrastructure begins a two-decade rot due to lack of federal mandates.",
+        "Private_Corps": "Tech startups begin abstracting physical human identity from the digital transaction layer.",
+        "Defense_Sector": "GWOT Distraction: Defense hyper-focuses on foreign terror, completely ignoring the structural vulnerability of domestic data architecture."
+      },
+      {
+        "Date": "2010–2019",
+        "Historical_Periods": "Phase 2: Tech Hegemony",
+        "Legislative_Chain_o_Custard": "Dodd-Frank (Durbin Loophole), JOBS Act, TCJA (2017)",
+        "Fiat_Servitude": "Shadow Banking (BaaS): Venture capital subsidizes massive tech losses to monopolize market infrastructure, treating user data as the true currency.",
+        "Civic_Vector": "Pass-through entity incentives flood State registries. States adopt permanent 'Zero-Liability' disclaimers for business filings.",
+        "Private_Corps": "Big Tech builds walled digital reserves. Section 230 protects platforms as they begin trapping liquidity inside their own ecosystems.",
+        "Defense_Sector": "The Commercial Cloud Pivot: The DOD abandons bespoke infrastructure, becoming utterly dependent on Big Tech monopolies, implicitly protecting them."
+      },
+      {
+        "Date": "2020–2024",
+        "Historical_Periods": "Phase 3: The Catalyst",
+        "Legislative_Chain_o_Custard": "CARES Act, PPP Authorization",
+        "Fiat_Servitude": "The UI/PPP Skim: Unverified non-bank FinTechs process historic volumes of government capital, collecting massive fees while applying zero KYC rigor.",
+        "Civic_Vector": "Phantom Labor exploits UI systems. Fraudsters leverage legally protected, unverified LLCs to claim funds for non-existent employees.",
+        "Private_Corps": "Platforms silently ingest the behavioral and financial data of the crisis, building the algorithmic map of the 'Potemkin Economy.'",
+        "Defense_Sector": "Jurisdictional Blindness: US Cyber Command focuses strictly on external state-sponsored actors, remaining entirely blind to domestic corporate shell exploits and IP siphoning."
+      },
+      {
+        "Date": "2025–2026",
+        "Historical_Periods": "Phase 4: Terminal Extraction",
+        "Legislative_Chain_o_Custard": "USMCA Art. 19.11/19.16, Thaler v. Perlmutter (SCOTUS)",
+        "Fiat_Servitude": "Thermodynamic Equilibrium: Fiat velocity dies. Capital is permanently locked; value generation is replaced by algorithmic rent extraction.",
+        "Civic_Vector": "DOJ relies entirely on outsourced FCA whistleblowers due to siloed data. State justice systems remain permanently decoupled from UI ledgers.",
+        "Private_Corps": "The 'Absence of Space': Cognitive IP is extracted, reclassified as 'transformative,' and legally walled off as 'International Trade Secrets.'",
+        "Defense_Sector": "The 'Strategic Asset' Shield: The Defense apparatus views Big Tech's massive, stolen IP datasets as essential national security assets, preventing domestic enforcement from dismantling the fraud."
+      }
+    ]
+  }
+}

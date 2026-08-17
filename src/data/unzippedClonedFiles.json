@@ -1,0 +1,1682 @@
+[
+  {
+    "path": "/metadata.json",
+    "size": "1.2 KB",
+    "bytes": 1275,
+    "type": "json",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/.canary.lock.json",
+    "size": "8.8 KB",
+    "bytes": 8996,
+    "type": "json",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/.env.example",
+    "size": "1.9 KB",
+    "bytes": 1977,
+    "type": "other",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/LICENSE.md",
+    "size": "3.1 KB",
+    "bytes": 3178,
+    "type": "doc",
+    "category": "Documentation & RFC",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Documentation & RFC)"
+  },
+  {
+    "path": "/README.md",
+    "size": "1.4 KB",
+    "bytes": 1385,
+    "type": "doc",
+    "category": "Documentation & RFC",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Documentation & RFC)"
+  },
+  {
+    "path": "/app.py",
+    "size": "9.5 KB",
+    "bytes": 9728,
+    "type": "python",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/dependency_firewall_rules.json",
+    "size": "2.5 KB",
+    "bytes": 2564,
+    "type": "json",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/index.html",
+    "size": "2.0 KB",
+    "bytes": 2070,
+    "type": "markup",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/lane-vm-rfc-0103-full-duplex-kernel-engine.zip",
+    "size": "769.9 KB",
+    "bytes": 788341,
+    "type": "binary",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/package.json",
+    "size": "1.6 KB",
+    "bytes": 1629,
+    "type": "json",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/.gitignore",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "other",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/.provenance.jsonld",
+    "size": "1.4 KB",
+    "bytes": 1387,
+    "type": "other",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/autonomous_github_worker.py",
+    "size": "10.3 KB",
+    "bytes": 10569,
+    "type": "python",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/bun.lock",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "other",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/hall_of_mirrors.py",
+    "size": "9.5 KB",
+    "bytes": 9746,
+    "type": "python",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/server.ts",
+    "size": "51.9 KB",
+    "bytes": 53125,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/tsconfig.json",
+    "size": "1.0 KB",
+    "bytes": 1062,
+    "type": "json",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/wrangler.jsonc",
+    "size": "2.7 KB",
+    "bytes": 2731,
+    "type": "other",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/vite.config.ts",
+    "size": "1.8 KB",
+    "bytes": 1834,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/.github/workflows/cloudflare_sync.yml",
+    "size": "3.0 KB",
+    "bytes": 3051,
+    "type": "yaml",
+    "category": "Workflows & CI",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Workflows & CI)"
+  },
+  {
+    "path": "/.github/workflows/validate_and_sync_provenance.yml",
+    "size": "2.0 KB",
+    "bytes": 2072,
+    "type": "yaml",
+    "category": "Workflows & CI",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Workflows & CI)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/CODEOWNERS",
+    "size": "1.2 KB",
+    "bytes": 1203,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/CONTRIBUTING.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/GOVERNANCE.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Joules_Supply_Chain_Conjecture.pdf",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "binary",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/LICENSE.md",
+    "size": "3.1 KB",
+    "bytes": 3178,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/README.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/SCAFFOLD-MANIFEST.sha256.txt",
+    "size": "10.3 KB",
+    "bytes": 10499,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/SECURITY.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/app.py",
+    "size": "9.5 KB",
+    "bytes": 9728,
+    "type": "python",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/intake_pipeline.py",
+    "size": "11.1 KB",
+    "bytes": 11354,
+    "type": "python",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/provenance.jsonld",
+    "size": "1.8 KB",
+    "bytes": 1869,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/wrangler.jsonc",
+    "size": "1.3 KB",
+    "bytes": 1287,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.gitignore",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/autonomous_github_worker.py",
+    "size": "9.0 KB",
+    "bytes": 9217,
+    "type": "python",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.GitHub/PULL_REQUEST_TEMPLATE.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.GitHub/issue_template/bug_report.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.GitHub/issue_template/ground_truth_violation.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.GitHub/workflows/sync-provenance.yml",
+    "size": "1.9 KB",
+    "bytes": 1925,
+    "type": "yaml",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.GitHub/workflows/verify-governance-manifest.yml",
+    "size": "1.7 KB",
+    "bytes": 1720,
+    "type": "yaml",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.github/workflows/provenance-check.yml",
+    "size": "2.0 KB",
+    "bytes": 2072,
+    "type": "yaml",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TERMS_OF_USE.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/albert_cylandir.html",
+    "size": "11.7 KB",
+    "bytes": 11974,
+    "type": "markup",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/maybe-gate-logic.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/LICENSE.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/README.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/Report_template.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/TERMS_OF_USE.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/reports/3.19.26_dojreport.html",
+    "size": "54.4 KB",
+    "bytes": 55665,
+    "type": "markup",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/sovereign-plugin/script.js",
+    "size": "14.5 KB",
+    "bytes": 14882,
+    "type": "typescript",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/README.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/scripts.js",
+    "size": "2.3 KB",
+    "bytes": 2376,
+    "type": "typescript",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/styles.css",
+    "size": "2.7 KB",
+    "bytes": 2750,
+    "type": "style",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/telematic.html",
+    "size": "1.9 KB",
+    "bytes": 1935,
+    "type": "markup",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Rust5D/Albert Array Escape Bracketed Rust.rs",
+    "size": "3.0 KB",
+    "bytes": 3073,
+    "type": "rust",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Rust5D/Categroup-Matrix-Schema.json",
+    "size": "4.7 KB",
+    "bytes": 4787,
+    "type": "json",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Rust5D/Gemini_Affidavit.html",
+    "size": "6.8 KB",
+    "bytes": 7005,
+    "type": "markup",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Rust5D/README3.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Rust5D/Readme.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Rust5D/Readme2.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Rust5D/Whitepaper: Geometric Bifurcation in Human Viewable Code.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/Rust5D/e=AA Specification: Geometry.json",
+    "size": "16.0 KB",
+    "bytes": 16386,
+    "type": "json",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/docs/governance/GROUND-TRUTH-TAXONOMY.md",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/docs/governance/MANIFEST.sha256.txt",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/docs/governance/ground-truth-taxonomy.json",
+    "size": "14.2 KB",
+    "bytes": 14517,
+    "type": "json",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/docs/governance/ground-truth-taxonomy.patterns.txt",
+    "size": "843 B",
+    "bytes": 843,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/docs/governance/ground-truth-taxonomy.xml",
+    "size": "14.4 KB",
+    "bytes": 14795,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/Joules-Supply-Chain/src/index.ts",
+    "size": "2.5 KB",
+    "bytes": 2559,
+    "type": "typescript",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/server/canary_sentry.ts",
+    "size": "12.2 KB",
+    "bytes": 12537,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/dependency_firewall.ts",
+    "size": "12.1 KB",
+    "bytes": 12379,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/ephemeral_redundancy_agent.ts",
+    "size": "6.6 KB",
+    "bytes": 6756,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/joules_conjecture_engine.ts",
+    "size": "13.3 KB",
+    "bytes": 13661,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/lane_kernel.ts",
+    "size": "7.8 KB",
+    "bytes": 7937,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/provenance_guard.ts",
+    "size": "14.6 KB",
+    "bytes": 15001,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/reporting_pipeline.ts",
+    "size": "9.5 KB",
+    "bytes": 9744,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/rfc0102_safd.ts",
+    "size": "18.1 KB",
+    "bytes": 18522,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/cloudflare_sync.ts",
+    "size": "16.9 KB",
+    "bytes": 17344,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/security.ts",
+    "size": "6.8 KB",
+    "bytes": 6982,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/tactile_bifurcation_engine.ts",
+    "size": "7.5 KB",
+    "bytes": 7705,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/upstream_scaffolder.ts",
+    "size": "6.9 KB",
+    "bytes": 7015,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/server/worker.ts",
+    "size": "22.4 KB",
+    "bytes": 22909,
+    "type": "typescript",
+    "category": "Backend & Server",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Backend & Server)"
+  },
+  {
+    "path": "/assets/.aistudio/.gitignore",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "other",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/App.tsx",
+    "size": "14.0 KB",
+    "bytes": 14364,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/index.css",
+    "size": "881 B",
+    "bytes": 881,
+    "type": "style",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/main.tsx",
+    "size": "1.1 KB",
+    "bytes": 1093,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/Bit31CliConsole.tsx",
+    "size": "10.0 KB",
+    "bytes": 10199,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/CloudflareGithubScaffold.tsx",
+    "size": "21.8 KB",
+    "bytes": 22288,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/BrailleMatrixVisualizer.tsx",
+    "size": "8.0 KB",
+    "bytes": 8155,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/DependencyFirewallPanel.tsx",
+    "size": "16.6 KB",
+    "bytes": 16962,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/EphemeralRedundancyPanel.tsx",
+    "size": "12.4 KB",
+    "bytes": 12738,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/Header.tsx",
+    "size": "5.8 KB",
+    "bytes": 5949,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/JoulesSupplyChainDashboard.tsx",
+    "size": "34.5 KB",
+    "bytes": 35378,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/JoulesReportingPipeline.tsx",
+    "size": "17.6 KB",
+    "bytes": 18029,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/KernelCanarySentryPanel.tsx",
+    "size": "16.3 KB",
+    "bytes": 16718,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/LiveStreamTerminal.tsx",
+    "size": "11.2 KB",
+    "bytes": 11512,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/ProvenanceComplianceInspector.tsx",
+    "size": "21.4 KB",
+    "bytes": 21904,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/ProtoSchematicView.tsx",
+    "size": "8.2 KB",
+    "bytes": 8353,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/MemoryInspector.tsx",
+    "size": "6.8 KB",
+    "bytes": 6990,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/ProvenanceBadge.tsx",
+    "size": "4.2 KB",
+    "bytes": 4307,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/PacketTransceiver.tsx",
+    "size": "8.7 KB",
+    "bytes": 8940,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/Rust5DBifurcationViewer.tsx",
+    "size": "12.4 KB",
+    "bytes": 12696,
+    "type": "typescript",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/src/components/SecuritySentryPanel.tsx",
+    "size": "9.6 KB",
+    "bytes": 9789,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/components/StreamlitBroadcastEngine.tsx",
+    "size": "19.2 KB",
+    "bytes": 19697,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/hooks/useRFC0103Stream.ts",
+    "size": "8.8 KB",
+    "bytes": 9019,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/utils/braille.ts",
+    "size": "2.6 KB",
+    "bytes": 2633,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/utils/crc32.ts",
+    "size": "2.0 KB",
+    "bytes": 2050,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/utils/vmm.ts",
+    "size": "4.3 KB",
+    "bytes": 4360,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/types/lane.ts",
+    "size": "5.1 KB",
+    "bytes": 5182,
+    "type": "typescript",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/src/proto/lane_kernel.proto",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "other",
+    "category": "Unzipped Archive",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Unzipped Archive)"
+  },
+  {
+    "path": "/lane-vm/metadata.json",
+    "size": "791 B",
+    "bytes": 791,
+    "type": "json",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/.env.example",
+    "size": "1.7 KB",
+    "bytes": 1775,
+    "type": "other",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/.gitignore",
+    "size": "714 B",
+    "bytes": 714,
+    "type": "other",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/app.py",
+    "size": "12.7 KB",
+    "bytes": 12964,
+    "type": "python",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/bun.lock",
+    "size": "72.1 KB",
+    "bytes": 73802,
+    "type": "other",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/dependency_firewall_rules.json",
+    "size": "2.0 KB",
+    "bytes": 2068,
+    "type": "json",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/index.html",
+    "size": "1.8 KB",
+    "bytes": 1877,
+    "type": "markup",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/package.json",
+    "size": "1.1 KB",
+    "bytes": 1153,
+    "type": "json",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server.ts",
+    "size": "38.0 KB",
+    "bytes": 38926,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/tsconfig.json",
+    "size": "586 B",
+    "bytes": 586,
+    "type": "json",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/vite.config.ts",
+    "size": "1.6 KB",
+    "bytes": 1629,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/wrangler.jsonc",
+    "size": "1.7 KB",
+    "bytes": 1720,
+    "type": "other",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/.canary.lock.json",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "json",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/README.md",
+    "size": "542 B",
+    "bytes": 542,
+    "type": "doc",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/.github/workflows/cloudflare_sync.yml",
+    "size": "2.8 KB",
+    "bytes": 2849,
+    "type": "yaml",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/CODEOWNERS",
+    "size": "1.1 KB",
+    "bytes": 1162,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/SCAFFOLD-MANIFEST.sha256.txt",
+    "size": "9.6 KB",
+    "bytes": 9792,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/app.py",
+    "size": "13.7 KB",
+    "bytes": 14045,
+    "type": "python",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/intake_pipeline.py",
+    "size": "10.9 KB",
+    "bytes": 11152,
+    "type": "python",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/provenance.jsonld",
+    "size": "889 B",
+    "bytes": 889,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/wrangler.jsonc",
+    "size": "1.1 KB",
+    "bytes": 1163,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.gitignore",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/GOVERNANCE.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Joules_Supply_Chain_Conjecture.pdf",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "binary",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/LICENSE.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/SECURITY.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/CONTRIBUTING.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/README.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.GitHub/PULL_REQUEST_TEMPLATE.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.GitHub/workflows/sync-provenance.yml",
+    "size": "1.7 KB",
+    "bytes": 1723,
+    "type": "yaml",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.GitHub/workflows/verify-governance-manifest.yml",
+    "size": "1.5 KB",
+    "bytes": 1518,
+    "type": "yaml",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.GitHub/issue_template/ground_truth_violation.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.GitHub/issue_template/bug_report.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.github/workflows/provenance-check.yml",
+    "size": "1.8 KB",
+    "bytes": 1870,
+    "type": "yaml",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/albert_cylandir.html",
+    "size": "11.5 KB",
+    "bytes": 11781,
+    "type": "markup",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TERMS_OF_USE.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/maybe-gate-logic.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/LICENSE.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/README.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/Report_template.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/TERMS_OF_USE.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/reports/3.19.26_dojreport.html",
+    "size": "54.2 KB",
+    "bytes": 55472,
+    "type": "markup",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/sovereign-plugin/script.js",
+    "size": "14.3 KB",
+    "bytes": 14677,
+    "type": "typescript",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/scripts.js",
+    "size": "2.1 KB",
+    "bytes": 2171,
+    "type": "typescript",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/styles.css",
+    "size": "2.5 KB",
+    "bytes": 2545,
+    "type": "style",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/telematic.html",
+    "size": "1.7 KB",
+    "bytes": 1742,
+    "type": "markup",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/README.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Rust5D/Categroup-Matrix-Schema.json",
+    "size": "4.2 KB",
+    "bytes": 4287,
+    "type": "json",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Rust5D/Gemini_Affidavit.html",
+    "size": "6.7 KB",
+    "bytes": 6812,
+    "type": "markup",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Rust5D/e=AA Specification: Geometry.json",
+    "size": "15.6 KB",
+    "bytes": 15928,
+    "type": "json",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Rust5D/Albert Array Escape Bracketed Rust.rs",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "rust",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Rust5D/README3.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Rust5D/Readme.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Rust5D/Whitepaper: Geometric Bifurcation in Human Viewable Code.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/Rust5D/Readme2.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/docs/governance/ground-truth-taxonomy.json",
+    "size": "12.9 KB",
+    "bytes": 13206,
+    "type": "json",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/docs/governance/ground-truth-taxonomy.xml",
+    "size": "14.3 KB",
+    "bytes": 14673,
+    "type": "other",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/docs/governance/GROUND-TRUTH-TAXONOMY.md",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/docs/governance/MANIFEST.sha256.txt",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/docs/governance/ground-truth-taxonomy.patterns.txt",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "doc",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/Joules-Supply-Chain/src/index.ts",
+    "size": "2.3 KB",
+    "bytes": 2354,
+    "type": "typescript",
+    "category": "Joules Supply Chain",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Joules Supply Chain)"
+  },
+  {
+    "path": "/lane-vm/server/canary_sentry.ts",
+    "size": "12.1 KB",
+    "bytes": 12406,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/cloudflare_sync.ts",
+    "size": "12.1 KB",
+    "bytes": 12439,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/dependency_firewall.ts",
+    "size": "11.9 KB",
+    "bytes": 12174,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/ephemeral_redundancy_agent.ts",
+    "size": "6.5 KB",
+    "bytes": 6622,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/joules_conjecture_engine.ts",
+    "size": "13.2 KB",
+    "bytes": 13526,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/lane_kernel.ts",
+    "size": "7.6 KB",
+    "bytes": 7732,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/provenance_guard.ts",
+    "size": "12.5 KB",
+    "bytes": 12760,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/reporting_pipeline.ts",
+    "size": "9.3 KB",
+    "bytes": 9539,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/rfc0102_safd.ts",
+    "size": "17.9 KB",
+    "bytes": 18317,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/security.ts",
+    "size": "6.6 KB",
+    "bytes": 6777,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/upstream_scaffolder.ts",
+    "size": "5.8 KB",
+    "bytes": 5925,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/server/worker.ts",
+    "size": "4.1 KB",
+    "bytes": 4200,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/App.tsx",
+    "size": "13.8 KB",
+    "bytes": 14159,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/index.css",
+    "size": "676 B",
+    "bytes": 676,
+    "type": "style",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/main.tsx",
+    "size": "888 B",
+    "bytes": 888,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/Bit31CliConsole.tsx",
+    "size": "8.9 KB",
+    "bytes": 9146,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/BrailleMatrixVisualizer.tsx",
+    "size": "7.8 KB",
+    "bytes": 7950,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/CloudflareGithubScaffold.tsx",
+    "size": "21.6 KB",
+    "bytes": 22083,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/DependencyFirewallPanel.tsx",
+    "size": "16.4 KB",
+    "bytes": 16757,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/EphemeralRedundancyPanel.tsx",
+    "size": "12.3 KB",
+    "bytes": 12604,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/Header.tsx",
+    "size": "5.6 KB",
+    "bytes": 5744,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/JoulesReportingPipeline.tsx",
+    "size": "17.4 KB",
+    "bytes": 17824,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/JoulesSupplyChainDashboard.tsx",
+    "size": "34.4 KB",
+    "bytes": 35243,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/KernelCanarySentryPanel.tsx",
+    "size": "16.2 KB",
+    "bytes": 16577,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/LiveStreamTerminal.tsx",
+    "size": "11.0 KB",
+    "bytes": 11307,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/MemoryInspector.tsx",
+    "size": "6.6 KB",
+    "bytes": 6785,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/PacketTransceiver.tsx",
+    "size": "8.5 KB",
+    "bytes": 8735,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/ProtoSchematicView.tsx",
+    "size": "8.0 KB",
+    "bytes": 8148,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/ProvenanceBadge.tsx",
+    "size": "3.8 KB",
+    "bytes": 3897,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/ProvenanceComplianceInspector.tsx",
+    "size": "21.2 KB",
+    "bytes": 21699,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/Rust5DBifurcationViewer.tsx",
+    "size": "12.2 KB",
+    "bytes": 12491,
+    "type": "typescript",
+    "category": "Rust 5D Core",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Rust 5D Core)"
+  },
+  {
+    "path": "/lane-vm/src/components/SecuritySentryPanel.tsx",
+    "size": "9.4 KB",
+    "bytes": 9584,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/components/StreamlitBroadcastEngine.tsx",
+    "size": "19.0 KB",
+    "bytes": 19492,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/hooks/useRFC0103Stream.ts",
+    "size": "8.6 KB",
+    "bytes": 8814,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/proto/lane_kernel.proto",
+    "size": "2.7 KB",
+    "bytes": 2813,
+    "type": "other",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/types/lane.ts",
+    "size": "4.8 KB",
+    "bytes": 4931,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/utils/braille.ts",
+    "size": "2.4 KB",
+    "bytes": 2428,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/utils/crc32.ts",
+    "size": "1.8 KB",
+    "bytes": 1845,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/src/utils/vmm.ts",
+    "size": "2.9 KB",
+    "bytes": 2960,
+    "type": "typescript",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  },
+  {
+    "path": "/lane-vm/assets/.aistudio/.gitignore",
+    "size": "0 B",
+    "bytes": 0,
+    "type": "other",
+    "category": "Lane VM Kernel",
+    "description": "Unzipped from Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2 (Lane VM Kernel)"
+  }
+]

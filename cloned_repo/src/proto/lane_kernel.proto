@@ -1,0 +1,81 @@
+/* ==============================================================================
+ * PROVENANCE METADATA (.lvm / .lane v1.0)
+ * Architecture: LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine
+ * Rights Holder: Albert Dale Lane (EIN: 41-3119079) | Jurisdiction: Oregon, USA
+ * License: Sovereign IP License v1.2 / Proprietary License Part A & B (All Rights Reserved)
+ * Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
+ * Authority: https://provenance.albertlane.net/.provenance.jsonld
+ * Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
+ * ============================================================================== */
+
+syntax = "proto3";
+
+package lane.rfc0103;
+
+// Execution Mode Bit-Width Constraints
+enum ExecutionMode {
+  GROUND_31 = 0; // 31-bit execution state (Mask: 0x7FFFFFFF)
+  APEX_7 = 1;    // 7-bit execution state (Mask: 0x7F)
+}
+
+// OpCode dispatch table for LANE-VM Kernel (RFC 0103)
+enum OpCode {
+  NO_OP = 0;        // Pipeline stall and barrier synchronization
+  MEM_WRITE = 1;    // Stride-aligned store: Address = Reference * 17,684
+  MEM_READ = 2;     // Stride-aligned read from VMM state
+  COMPUTE = 3;      // Dispatch calculation / guest execution
+  IO_SINK = 4;      // Stream output to system sockets / terminal console
+  FLOW_CONTROL = 5; // Instruction pointer manipulation and branch state
+  SYS_CALL = 6;     // Restricted OS request verified by Host Sentry
+}
+
+// Primary wire protocol framing packet (RFC 0103)
+message LanePacket {
+  // 64-bit constant derived from SEC Whistleblower #17684-273-411-436 (0x3F8F9A1B2C3D)
+  uint64 magic = 1;
+  
+  // Monotonic sequence starting at initial base offset P_0 = 57,000
+  uint64 packet_id = 2;
+  
+  // RFC 0103 Instruction OpCode
+  uint32 opcode = 3;
+  
+  // IEEE 802.3 CRC-32 checksum (Polynomial 0xEDB88320) over raw payload bytes
+  uint32 crc32 = 4;
+  
+  // Raw instruction or tactile Braille payload (Max 2,000 bytes)
+  bytes payload = 5;
+  
+  // Active execution bit-width mode
+  ExecutionMode mode = 6;
+  
+  // Timestamp in microseconds from kernel epoch
+  uint64 timestamp_us = 7;
+  
+  // Virtual memory slot index (Mapped to physical byte address r * 17684)
+  uint32 memory_slot = 8;
+  
+  // Braille Unicode vector representation (U+2800..U+28FF)
+  string braille_vector = 9;
+}
+
+// VMM Memory Allocation Segment definition
+message VmmMemorySegment {
+  uint32 virtual_index = 1;
+  uint64 physical_address = 2; // r * 17,684 bytes
+  uint32 stride_bytes = 3;    // 17,684
+  uint32 raw_value = 4;
+  uint32 masked_value = 5;
+  ExecutionMode mode = 6;
+  string memory_tag = 7;
+}
+
+// Security Sentry Ingress Event
+message SecurityIngressEvent {
+  string client_ip = 1;
+  bool is_pinned = 2;
+  bool is_ssrf_blocked = 3;
+  string rejection_reason = 4;
+  string unwrapped_ipv4 = 5;
+  uint64 timestamp = 6;
+}

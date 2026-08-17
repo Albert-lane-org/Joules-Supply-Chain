@@ -1,0 +1,97 @@
+# ==============================================================================
+# PROVENANCE METADATA (.lvm / .lane v1.0)
+# Architecture: LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine
+# Rights Holder: Albert Dale Lane (EIN: 41-3119079) | Jurisdiction: Oregon, USA
+# License: Sovereign IP License v1.2 / Proprietary License Part A & B (All Rights Reserved)
+# Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
+# Authority: https://provenance.albertlane.net/.provenance.jsonld
+# Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
+# Upstream Sync: github.com/AlbertLaneDevice/Joules-Supply-Chain (Master Ledger)
+# Framework Spec: JOULES-SUPPLY-CHAIN-CONJECTURE-2026 / SAFD-SPEC-01 / RFC 0103
+# ==============================================================================
+
+664ae40c63c52b4a7189c8b4012b2dc9b5960c096e83b68b66539ebc981a9042  .env.example
+0ab9095b5cbef85ec241537e43ccc5d3947429ff9f750076a223e42bb479fc57  .github/workflows/cloudflare_sync.yml
+ef7c34b5a4f41fb1d4d2d163803aed484bbfc40ec33d4ccb7b8ac59793bb3cfe  Joules-Supply-Chain/.GitHub/PULL_REQUEST_TEMPLATE.md
+a07affad0ea3a595c88b5b9fb8d8cf09820d5a77e66a2a83a707ba563d063856  Joules-Supply-Chain/.GitHub/issue_template/bug_report.md
+25410c9af00da27357c7fd73efc038a12a7d19758f86b5fe3597ff099516a7aa  Joules-Supply-Chain/.GitHub/issue_template/ground_truth_violation.md
+b7f26a2dcff875d3cd243f3762f4b41d2ac8dec5af41119d00d2985f51947536  Joules-Supply-Chain/.GitHub/workflows/sync-provenance.yml
+cae06c71abfdf467befedb224781645707eeae82b3ba68fa24d4e3abf6f3f34e  Joules-Supply-Chain/.GitHub/workflows/verify-governance-manifest.yml
+83d506afb655ba0289a94142345e0ec65e49a2ddd13b2fdf0f4fcc6482c67608  Joules-Supply-Chain/.github/workflows/provenance-check.yml
+46c1c1599a4ea8cda785bacd3ec6f41b90723e37da044a375760d9a7a103ee8e  Joules-Supply-Chain/.private/TELEMATICS/LICENSE.md
+450d64d17d8037dc253005f785f5679241386796612ece68727bb3b790602f08  Joules-Supply-Chain/.private/TELEMATICS/README.md
+887618e171a152867f0b2e91f0e2ae4c7a09de0539a851ee79c85a983d194acb  Joules-Supply-Chain/.private/TELEMATICS/Report_template.md
+4eac9e3db574f6cc5630ec2a9aa2c28c91bf6a32cdeaa103a2ee28c3b17d6bbc  Joules-Supply-Chain/.private/TELEMATICS/TERMS_OF_USE.md
+03c8be67a24f015d9d4cf81972e7a58947ee138abf4c20661f31e0e932303d86  Joules-Supply-Chain/.private/TELEMATICS/reports/3.19.26_dojreport.html
+15e32e5cea3c3d3b08c0a63e68e62d10769d6b72fa2985f9c36a9af77c2e4b82  Joules-Supply-Chain/.private/TELEMATICS/sovereign-plugin/script.js
+8887af6a1e931ea051a23fbfcd9a58e3eda65e453a16b76fcbba2aaf36f4fef2  Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/README.md
+966ed4a63e752689d7ccadb12ae3bca445540c7c7c138b62406d1d3f107dd86e  Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/scripts.js
+7cadbba2aa3a11c2032d627e6d1597cd78888cead10f85b9e9c63981ec4ceb9b  Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/styles.css
+980d3a7970187fd9640770044df6862d82c401f02db602e2b32dcd252be0b3a9  Joules-Supply-Chain/.private/TELEMATICS/telematic_browser/telematic.html
+b245d3b200a3c77f6a551c9437ca2ae5d1afb4d0b2ad645c5a9e4c8c90e546b3  Joules-Supply-Chain/.private/TERMS_OF_USE.md
+7a29ddaa682c9b6113861a8987f45a35c0898234dfda2dd661e42389429a8e0d  Joules-Supply-Chain/.private/albert_cylandir.html
+d418945ce84a751a0804a41b653d1e35343e0a3424ccadd9c3acf3b85c5e1648  Joules-Supply-Chain/.private/maybe-gate-logic.md
+f9f00c030278fd86504244ee1312b842af100124e2d7b04ba41acfdaec0bbfc6  Joules-Supply-Chain/CODEOWNERS
+6404df762f4f87cf60d56369633d580b419f4c99a524da59b9efab816cbee0b9  Joules-Supply-Chain/CONTRIBUTING.md
+25a325d015af8ff3d1b133ff073093a83aab4090db472c664689eecbb3c4b9d8  Joules-Supply-Chain/GOVERNANCE.md
+74dd153b14053fec1761abce2772c92c6aafffdbe576ca106c90cad8a266728b  Joules-Supply-Chain/LICENSE.md
+aed2cfc2c53db1c2abb10797e5d2a9c441ff94145e8408866f66bdb1a04414fa  Joules-Supply-Chain/README.md
+c2a69b462e669b2e3edcf51c12ebeaf43ef8d2e8ed7754676067dda378361e38  Joules-Supply-Chain/Rust5D/Albert Array Escape Bracketed Rust.rs
+f18e4f1d9c2027d5c50b643d6c1e57685455f35356dbb5d4d05f1c16f8fa428d  Joules-Supply-Chain/Rust5D/Gemini_Affidavit.html
+c232631724512e163d1c39b30b01af65d708d7132a0f082af4038064ad9e3f05  Joules-Supply-Chain/Rust5D/README3.md
+120fe4a389646d85fdef8c480d9f6694737db1dd72c37662ef30debb4ca9a1f1  Joules-Supply-Chain/Rust5D/Readme.md
+cae39ed0e5b637e0ae89e0dac25e1f82e2154a458cfd55ff3fe8b011e7214fde  Joules-Supply-Chain/Rust5D/Readme2.md
+86025fccfca4de0a60a3a22b1500fb5b1d6767f421d0de0474a00adb0422f1a5  Joules-Supply-Chain/Rust5D/Whitepaper: Geometric Bifurcation in Human Viewable Code.md
+53d728a5e7796a0ca1bc680fa1397b31580e7086e94dd48427b50164e044a004  Joules-Supply-Chain/SCAFFOLD-MANIFEST.sha256.txt
+ab457349a43722d71f226a1bd854b0cc0f1431531f46cc930f71e20173528325  Joules-Supply-Chain/SECURITY.md
+7ae83cfe29f9e68035bfaf66b3cf252f5d950969f87012fac452122b29cd8422  Joules-Supply-Chain/app.py
+e89ba82eadcf6f4670eaf9e7187a18837826a06954a203c0d45c4321f52b2aba  Joules-Supply-Chain/docs/governance/GROUND-TRUTH-TAXONOMY.md
+ed314ee3fc1d85f355654336c9cb081e04033567946cb53dc21ad662aa324c80  Joules-Supply-Chain/docs/governance/MANIFEST.sha256.txt
+0bc49992f88cd872f53d35f2acb16e589d9d27230cad99ef3a2f94c35d4b5dbb  Joules-Supply-Chain/docs/governance/ground-truth-taxonomy.patterns.txt
+9aabe028d9f152a6364f596dc3d1670e7d46b9ef03ddb6c0d841470816ec7724  Joules-Supply-Chain/docs/governance/ground-truth-taxonomy.xml
+b5257e7da4541e503b41eebdf9adb9768efbfd9b4f0a8f3079dc31085f2c2356  Joules-Supply-Chain/intake_pipeline.py
+0702abec2803b2b3e582623fcda8cc9873018828e134e395ada93d274e669c0b  Joules-Supply-Chain/src/index.ts
+e237b82a45e2b62c97f23c19d7b73b4170ca6885f1b3059d6793dde6bfc65be4  Joules-Supply-Chain/wrangler.jsonc
+2545dfd7f688c9aee30867d54acdc0eb866476ed65e96f4670a8cfa37e2e7ff0  app.py
+42cb42528f0d924566509b3e525b41d55b907164b1d94e975f6f4f23adc765a2  index.html
+6abca0b79a2bce6717f039f572c52c1ffa4db887560eaddb874788c9d0b6f12c  server/canary_sentry.ts
+b4dd2b59159c443844f3c8c2984bf4c10ebb42a354b5677972dfe953f7c2d8c0  server/cloudflare_sync.ts
+bd43fa2953a2f11e196a28fc1b232c3b52f8da17b41c7baaca891fc1d95b5b2e  server/dependency_firewall.ts
+e421fecee587d9b3a0fa9551367af08783356ebe3e443481620f6062587e2d9d  server/ephemeral_redundancy_agent.ts
+eec14de4e885942ad782b52909229fb609ad249095b96afe69fbb4eb2948c21c  server/joules_conjecture_engine.ts
+c687d8ac721d822e1b61150008e855bce3344a91cbd0bc2e76fd58707b99b73b  server/lane_kernel.ts
+493ef53483dbe9635c7e28dd229ba7163e44e7998fd5851a499fc820107d5765  server/provenance_guard.ts
+328dd0ddabb98c4a1be456fa42ff1521dfa87a68f901b82845c468772011c226  server/reporting_pipeline.ts
+3408c3991ebe4e89de00606ee4be445275ee1bb26628ca16e668c534033320e2  server/rfc0102_safd.ts
+8ac98dc891d4b80794d58056eb3dbff6b0031808202490cc462f41386ae19318  server/security.ts
+012fa7dc7ff9ae18519b777d892ddbfc2862206a9c0c3a232c8daa3a8ccd4802  server/upstream_scaffolder.ts
+b9fb95872d23695d82778306a883ac299471990c4bd2670f9159f44a5a0353c3  server/worker.ts
+4978ee379c62a21c673f5c322b794e0ec11945731b2516440a26cf9e3561f8e4  server.ts
+c936644c2159b1ea1e6f75bff764cc4e5458a2cd53982a88a6108a2d641c54ac  src/App.tsx
+96bd2db6895bd93b35d65e735267cb7037cda6395cda8336da53409118ed2e5b  src/components/Bit31CliConsole.tsx
+8b322a208196cb055e951cd4d1bf72deac5d499e61e850d058ee5ae151bfe5ec  src/components/BrailleMatrixVisualizer.tsx
+014c1651acc8e7a0ad25f932753c5b526830a0376860bb88798b7739fd360afc  src/components/CloudflareGithubScaffold.tsx
+d9cea808e06e634b31982e8d3e415f90aa0db76bbea07e59d2fc1391e883c8c8  src/components/DependencyFirewallPanel.tsx
+54d0776217ce3dbfae4e169bf91842b3770ada4daf2fa320c43dfa9e24826965  src/components/EphemeralRedundancyPanel.tsx
+591a87051d096c56e3bbf0de98c2e4e4ad6a201b6031d55c5f81c2d12e371c92  src/components/Header.tsx
+6be7a5740166e31f39f9b8e384badf175bcbb7f5c73cefa73d944a6df2f55b8c  src/components/JoulesReportingPipeline.tsx
+b58c89c80f6065c556164dca633d7b32ec5eae531577255c76d3406f372785b1  src/components/JoulesSupplyChainDashboard.tsx
+f3d42d509e7247937aae46895058c6b7ed42277f1aaa8bf2c85f2c800915bd31  src/components/KernelCanarySentryPanel.tsx
+77673ae9616591c88c8b16a725a7c0f52941c59ebe5cf580de865793d686e9a1  src/components/LiveStreamTerminal.tsx
+bd9cb5bae3afa401167ff4a78b43591dc58ce6c403b11ea85ec29803a99c7bf9  src/components/MemoryInspector.tsx
+ee76440a391aad358acb4674f0d79ff175ece3c0667e3152bea71a8432acfc64  src/components/PacketTransceiver.tsx
+02de1da09a5792068c8ad6ac8a2e2c16769dfa8dcff4db284bd3ebe629499211  src/components/ProtoSchematicView.tsx
+bc5ab51c7f580d3f931926b05c361166353e22256c5abcdcc0ccf5add4cabe66  src/components/ProvenanceBadge.tsx
+4322551edb8479dfa35028e376cad3641cb52805ca0df733a769b6e9e6095bb6  src/components/ProvenanceComplianceInspector.tsx
+90b6d75aac63919d07c95841b67d02cb13cdd9515a1c341b9e5dd36c0cc7dd05  src/components/Rust5DBifurcationViewer.tsx
+9ac2abf83dcce98f42e09cb325b5c411b157274f178ad65d9b3dddf23f93d367  src/components/SecuritySentryPanel.tsx
+dc9b7aaa6505534fb3991ab49c3f52fe19e09e0486bda0e1508b996ffb38c5f0  src/components/StreamlitBroadcastEngine.tsx
+e204cc34f5c8a2bb67e8fca197ff7559b62ededae32af41be00ba8373bbc3dfa  src/hooks/useRFC0103Stream.ts
+c9b1a95a7f89bb427ccc765c67fd772c21c5ff02c0eeba8b38c96904baa35247  src/index.css
+d072a48295caf63139e92f9bcad7b0b4bef6238630301f2c9f532e7cce9a1ef1  src/main.tsx
+5ab00c4cbf8a5ad2073913e8cb428070941cdb262407fd035ecf0a53ce33aef7  src/types/lane.ts
+15d5a9bf0cfab67c2191853d9320473ce86992037820e1a08d13193f10fcae47  src/utils/braille.ts
+31c605ba9aa8e8afefab25f876ff1cb4cd32f94af27f0decdf5676cbf663c7b9  src/utils/crc32.ts
+b939a8b6a924564cc1064052f7cf3062757c588e8ddfd1c9aaa1df59acf40a89  src/utils/vmm.ts
+c1e63a8a04791f06b4fcb8e68301c9ad536d24688a2a3b69326e56f965fa57a6  vite.config.ts
+5b038bdd3c068140d006ae36ceb326dc17b66a9a696f449f19fcd1fde3174a50  wrangler.jsonc

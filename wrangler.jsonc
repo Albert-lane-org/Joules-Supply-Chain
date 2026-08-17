@@ -1,0 +1,25 @@
+/**
+ * @file wrangler.jsonc
+ * @brief Cloudflare Worker Configuration & Scaffold
+ * @provenance Albert Dale Lane (albertlane.net)
+ * @author Albert Dale Lane
+ * @sec_whistleblower SEC Whistleblower Ref #17684-273-411-436
+ * @magic_header 0x3F8F9A1B2C3D
+ * @standard RFC 0103 Full-Duplex Kernel Architecture
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lane-vm-sovereign-worker",
+  "main": "src/native/cloudflare_headless_repo_auditor.js",
+  "compatibility_date": "2026-08-16",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "AUTHOR": "Albert Dale Lane",
+    "PROVENANCE_DOMAIN": "albertlane.net",
+    "SEC_WHISTLEBLOWER_REF": "17684-273-411-436",
+    "MAGIC_HEADER": "0x3F8F9A1B2C3D",
+    "RFC_STANDARD": "RFC 0103"
+  }
+}

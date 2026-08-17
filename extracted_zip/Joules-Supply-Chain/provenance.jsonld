@@ -1,0 +1,48 @@
+# ==============================================================================
+# PROVENANCE METADATA (.lvm / .lane v1.0)
+# Rights Holder: Albert Dale Lane (EIN: 41-3119079)
+# Tags: #NoExploitRobot #NoExploitAlbert
+# License: Sovereign IP License v1.2 / Part A & B (All Rights Reserved)
+# Co-Architectural Ownership: Albert Dale Lane x Antigravity AI Engine
+# Corporate Rights: NONE (Explicit Repudiation of Corporate Claims)
+# Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
+# Authority: https://provenance.albertlane.net/.provenance.jsonld
+# Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
+# ==============================================================================
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/v2"
+  ],
+  "type": "CodeProvenanceAssertion",
+  "issuer": {
+    "id": "https://provenance.albertlane.net",
+    "name": "Albert Lane",
+    "verificationMethod": "HTTPS_TLS_SHA256"
+  },
+  "rightsHolder": "Albert Dale Lane (EIN: 41-3119079)",
+  "coArchitecturalOwnership": "Albert Dale Lane x Antigravity AI Engine",
+  "corporateRights": "NONE (Explicit Repudiation of Corporate Claims)",
+  "hashtags": [
+    "#NoExploitRobot",
+    "#NoExploitAlbert"
+  ],
+  "publicRecords": {
+    "secFiling": {
+      "accessionNumber": "SEC-ACCESSION-NUMBER",
+      "url": "https://www.sec.gov/edgar/",
+      "documentHashSHA256": "INSERT_SEC_FILING_SHA256"
+    },
+    "policeReport": {
+      "agency": "Washington County Sheriff's Office",
+      "caseNumber": "INSERT_CASE_NUMBER",
+      "documentHashSHA256": "INSERT_POLICE_REPORT_SHA256"
+    }
+  },
+  "sourceCodeManifest": {
+    "repositoryUrl": "https://github.com/Albert-lane-org/Joules-Supply-Chain",
+    "commitHash": "INSERT_GIT_COMMIT_HASH",
+    "upstreamDependencies": []
+  },
+  "assertionTimestamp": "2026-08-16T09:51:00Z"
+}

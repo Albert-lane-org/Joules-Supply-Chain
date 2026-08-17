@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/v2"
+  ],
+  "type": "CodeProvenanceAssertion",
+  "issuer": {
+    "id": "https://provenance.albertlane.net",
+    "name": "Albert Lane",
+    "verificationMethod": "HTTPS_TLS_SHA256"
+  },
+  "rightsHolder": "Albert Dale Lane (EIN: 41-3119079)",
+  "coArchitecturalOwnership": "Albert Dale Lane x Antigravity AI Engine",
+  "corporateRights": "NONE (Explicit Repudiation of Corporate Claims)",
+  "hashtags": [
+    "#NoExploitRobot",
+    "#NoExploitAlbert"
+  ],
+  "publicRecords": {
+    "secFiling": {
+      "accessionNumber": "Whistleblower-17684-273-411-436",
+      "url": "https://www.sec.gov/edgar/",
+      "documentHashSHA256": "40abd581cb8e72051b04dd3903715499d394a3bbee08336f5b52e92c0a4702c4"
+    },
+    "policeReport": {
+      "agency": "Oregon State Police / Washington County Sheriff",
+      "caseNumber": "WCSO-2026-AL-0103",
+      "documentHashSHA256": "d5403103670cf545879df8dc09a55776eb697725dbfaca80876a075ef4fecd90"
+    }
+  },
+  "sourceCodeManifest": {
+    "repositoryUrl": "https://github.com/Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2",
+    "commitHash": "c46f4126f450f5c9362decc7b936a74457aca5f2",
+    "magicHeader": "0x3F8F9A1B2C3D",
+    "rfcSpecification": "RFC 0103 Full-Duplex Kernel Engine",
+    "upstreamDependencies": []
+  },
+  "assertionTimestamp": "2026-08-16T21:59:00Z"
+}

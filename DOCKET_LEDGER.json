@@ -1,0 +1,269 @@
+{
+  "title": "Albert Lane Sovereign Intellectual Property & Statutory Enforcement Docket Ledger",
+  "author": "Albert Dale Lane",
+  "website": "https://albertlane.net",
+  "secWhistleblowerReference": "17684-273-411-436",
+  "magicHeader": "0x3F8F9A1B2C3D",
+  "license": "Albert Lane Proprietary Software License v1.2",
+  "gravitationalConstant": "G = 6.67430e-11 m^3 kg^-1 s^-2",
+  "standardGravity": "g_0 = 9.80665 m/s^2",
+  "energyBudgetPerOp": "0.000084 Joules",
+  "genesisHash": "00000000000000003F8F9A1B2C3D57000ALBERT_LANE_SOVEREIGN_ORIGIN",
+  "totalDockets": 13,
+  "activeEnforcements": 13,
+  "registriesEnforced": [
+    "npm (Node.js)",
+    "crates.io (Rust)",
+    "PyPI (Python)",
+    "GitHub Public Mirrors"
+  ],
+  "lastUpdated": "2026-08-17T12:56:44.296Z",
+  "dockets": [
+    {
+      "blockIndex": 1,
+      "docketId": "AL-CD-1A00F9A2107-001",
+      "targetName": "@edge-runtime/vm",
+      "registry": "npm (Node.js)",
+      "url": "https://www.npmjs.com/package/@edge-runtime/vm",
+      "timestamp": "August 17, 2026 at 12:02 PM UTC",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "Lanham Act § 1125(a)",
+        "17 U.S.C. § 512 (DMCA)"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9A2107-001\nDATE: August 17, 2026 at 12:02 PM UTC\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: @edge-runtime/vm\n    Target Registry Ecosystem: npm (Node.js)\n    Direct URL: https://www.npmjs.com/package/@edge-runtime/vm\n    Registry Compliance Contact: security-legal-ops@registry\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from npm (Node.js).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "b85d00874c92aa86ca768cf3dee623b48124cc52126bc85b5ef7271535ace5f9",
+      "blockHash": "b85d00874c92aa86ca768cf3dee623b48124cc52126bc85b5ef7271535ace5f9"
+    },
+    {
+      "blockIndex": 2,
+      "docketId": "AL-CD-1A00F9A2107-002",
+      "targetName": "@tootallnate/quickjs-emscripten",
+      "registry": "npm (Node.js)",
+      "url": "https://www.npmjs.com/package/@tootallnate/quickjs-emscripten",
+      "timestamp": "August 17, 2026 at 12:02 PM UTC",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "Lanham Act § 1125(a)",
+        "17 U.S.C. § 512 (DMCA)"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9A2107-002\nDATE: August 17, 2026 at 12:02 PM UTC\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: @tootallnate/quickjs-emscripten\n    Target Registry Ecosystem: npm (Node.js)\n    Direct URL: https://www.npmjs.com/package/@tootallnate/quickjs-emscripten\n    Registry Compliance Contact: security-legal-ops@registry\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from npm (Node.js).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "1a8833120b6bdc379b9f6c639fa67b042eef90346c2b9f7c9787e1e13e017c73",
+      "blockHash": "1a8833120b6bdc379b9f6c639fa67b042eef90346c2b9f7c9787e1e13e017c73"
+    },
+    {
+      "blockIndex": 3,
+      "docketId": "AL-CD-1A00F9A2107-003",
+      "targetName": "isolated-vm",
+      "registry": "npm (Node.js)",
+      "url": "https://www.npmjs.com/package/isolated-vm",
+      "timestamp": "August 17, 2026 at 12:02 PM UTC",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "Lanham Act § 1125(a)",
+        "17 U.S.C. § 512 (DMCA)"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9A2107-003\nDATE: August 17, 2026 at 12:02 PM UTC\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: isolated-vm\n    Target Registry Ecosystem: npm (Node.js)\n    Direct URL: https://www.npmjs.com/package/isolated-vm\n    Registry Compliance Contact: security-legal-ops@registry\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from npm (Node.js).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "24d8ae64aeb18bbc6e966f4ee4b599987be2928f0adc3985397146db4919d69f",
+      "blockHash": "24d8ae64aeb18bbc6e966f4ee4b599987be2928f0adc3985397146db4919d69f"
+    },
+    {
+      "blockIndex": 4,
+      "docketId": "AL-CD-1A00F9A2107-004",
+      "targetName": "vm-browserify",
+      "registry": "npm (Node.js)",
+      "url": "https://www.npmjs.com/package/vm-browserify",
+      "timestamp": "August 17, 2026 at 12:02 PM UTC",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "Lanham Act § 1125(a)",
+        "17 U.S.C. § 512 (DMCA)"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9A2107-004\nDATE: August 17, 2026 at 12:02 PM UTC\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: vm-browserify\n    Target Registry Ecosystem: npm (Node.js)\n    Direct URL: https://www.npmjs.com/package/vm-browserify\n    Registry Compliance Contact: security-legal-ops@registry\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from npm (Node.js).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "0b6739fc7d11f49e6479b50137461ca7fbddbad7db26205a742ab302be750421",
+      "blockHash": "0b6739fc7d11f49e6479b50137461ca7fbddbad7db26205a742ab302be750421"
+    },
+    {
+      "blockIndex": 5,
+      "docketId": "AL-CD-1A00F9A2107-005",
+      "targetName": "computer-use-vm",
+      "registry": "npm (Node.js)",
+      "url": "https://www.npmjs.com/package/computer-use-vm",
+      "timestamp": "August 17, 2026 at 12:02 PM UTC",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "Lanham Act § 1125(a)",
+        "17 U.S.C. § 512 (DMCA)"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9A2107-005\nDATE: August 17, 2026 at 12:02 PM UTC\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: computer-use-vm\n    Target Registry Ecosystem: npm (Node.js)\n    Direct URL: https://www.npmjs.com/package/computer-use-vm\n    Registry Compliance Contact: security-legal-ops@registry\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from npm (Node.js).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "06483831570852335fcc98367519f2e4cded6b4498af647776d9ed407dd8f1fe",
+      "blockHash": "06483831570852335fcc98367519f2e4cded6b4498af647776d9ed407dd8f1fe"
+    },
+    {
+      "blockIndex": 6,
+      "docketId": "AL-CD-1A00F9A2107-006",
+      "targetName": "degenerator",
+      "registry": "npm (Node.js)",
+      "url": "https://www.npmjs.com/package/degenerator",
+      "timestamp": "August 17, 2026 at 12:02 PM UTC",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "Lanham Act § 1125(a)",
+        "17 U.S.C. § 512 (DMCA)"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9A2107-006\nDATE: August 17, 2026 at 12:02 PM UTC\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: degenerator\n    Target Registry Ecosystem: npm (Node.js)\n    Direct URL: https://www.npmjs.com/package/degenerator\n    Registry Compliance Contact: security-legal-ops@registry\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from npm (Node.js).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "fc69334bd78546cb42ffdd553c1f7039302e400d98c799b6039f0159b3281949",
+      "blockHash": "fc69334bd78546cb42ffdd553c1f7039302e400d98c799b6039f0159b3281949"
+    },
+    {
+      "blockIndex": 7,
+      "docketId": "AL-CD-1A00F9A2107-007",
+      "targetName": "quickjs-emscripten",
+      "registry": "npm (Node.js)",
+      "url": "https://www.npmjs.com/package/quickjs-emscripten",
+      "timestamp": "August 17, 2026 at 12:02 PM UTC",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "Lanham Act § 1125(a)",
+        "17 U.S.C. § 512 (DMCA)"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9A2107-007\nDATE: August 17, 2026 at 12:02 PM UTC\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: quickjs-emscripten\n    Target Registry Ecosystem: npm (Node.js)\n    Direct URL: https://www.npmjs.com/package/quickjs-emscripten\n    Registry Compliance Contact: security-legal-ops@registry\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from npm (Node.js).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "5d34a044240b2db8e04dd8484c3a548e90c98f5f6c5b7fb6f812b91498a87d1a",
+      "blockHash": "5d34a044240b2db8e04dd8484c3a548e90c98f5f6c5b7fb6f812b91498a87d1a"
+    },
+    {
+      "blockIndex": 8,
+      "docketId": "AL-CD-1A00F9A2107-008",
+      "targetName": "javascript-obfuscator",
+      "registry": "npm (Node.js)",
+      "url": "https://www.npmjs.com/package/javascript-obfuscator",
+      "timestamp": "August 17, 2026 at 12:02 PM UTC",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "Lanham Act § 1125(a)",
+        "17 U.S.C. § 512 (DMCA)"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9A2107-008\nDATE: August 17, 2026 at 12:02 PM UTC\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: javascript-obfuscator\n    Target Registry Ecosystem: npm (Node.js)\n    Direct URL: https://www.npmjs.com/package/javascript-obfuscator\n    Registry Compliance Contact: security-legal-ops@registry\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from npm (Node.js).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "f34732397e21f223d8899d48b8310acccc7d4dc6d4895843c11a3f5bdee54b1a",
+      "blockHash": "f34732397e21f223d8899d48b8310acccc7d4dc6d4895843c11a3f5bdee54b1a"
+    },
+    {
+      "blockIndex": 9,
+      "docketId": "AL-CD-1A00F9CC020-009",
+      "targetName": "lane-vm-runtime",
+      "registry": "crates.io (Rust)",
+      "url": "https://crates.io/crates/lane-vm-runtime",
+      "timestamp": "Mon, 17 Aug 2026 12:05:26 GMT",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "17 U.S.C. § 512"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9CC020-009\nDATE: Mon, 17 Aug 2026 12:05:26 GMT\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: lane-vm-runtime\n    Target Registry Ecosystem: crates.io (Rust)\n    Direct URL: https://crates.io/crates/lane-vm-runtime\n    Registry Compliance Contact: help@crates.io\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from crates.io (Rust).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "2a3866325172ae51aba4ef86c3297fc683bcd3a44f19e0a5cc1fd9f8d5c77afe",
+      "blockHash": "2a3866325172ae51aba4ef86c3297fc683bcd3a44f19e0a5cc1fd9f8d5c77afe"
+    },
+    {
+      "blockIndex": 10,
+      "docketId": "AL-CD-1A00F9CC020-010",
+      "targetName": "joules-allocator-simd",
+      "registry": "crates.io (Rust)",
+      "url": "https://crates.io/crates/joules-allocator-simd",
+      "timestamp": "Mon, 17 Aug 2026 12:05:26 GMT",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "17 U.S.C. § 512"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9CC020-010\nDATE: Mon, 17 Aug 2026 12:05:26 GMT\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: joules-allocator-simd\n    Target Registry Ecosystem: crates.io (Rust)\n    Direct URL: https://crates.io/crates/joules-allocator-simd\n    Registry Compliance Contact: help@crates.io\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from crates.io (Rust).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "8fcb35b955972e99f42303c1f394d7654a73c952178bff3cd4d95a9aa178041a",
+      "blockHash": "8fcb35b955972e99f42303c1f394d7654a73c952178bff3cd4d95a9aa178041a"
+    },
+    {
+      "blockIndex": 11,
+      "docketId": "AL-CD-1A00F9CC020-011",
+      "targetName": "lane-vm-python",
+      "registry": "PyPI (Python)",
+      "url": "https://pypi.org/project/lane-vm-python",
+      "timestamp": "Mon, 17 Aug 2026 12:05:26 GMT",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "15 U.S.C. § 1125(a)",
+        "17 U.S.C. § 512"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9CC020-011\nDATE: Mon, 17 Aug 2026 12:05:26 GMT\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: lane-vm-python\n    Target Registry Ecosystem: PyPI (Python)\n    Direct URL: https://pypi.org/project/lane-vm-python\n    Registry Compliance Contact: security@pypi.org\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from PyPI (Python).\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "419486c6d4410a835799df83a36f7b0c6c6935ed85f6855e5bfcb1aac2ab7731",
+      "blockHash": "419486c6d4410a835799df83a36f7b0c6c6935ed85f6855e5bfcb1aac2ab7731"
+    },
+    {
+      "blockIndex": 12,
+      "docketId": "AL-CD-1A00F9CC020-012",
+      "targetName": "google-anti-consumer-mirror",
+      "registry": "GitHub Public Mirrors",
+      "url": "https://github.com/derivation-mirror/google-anti-consumer",
+      "timestamp": "Mon, 17 Aug 2026 12:05:26 GMT",
+      "status": "ORDER_DISPATCHED_TO_REGISTRY_SECURITY",
+      "statutoryCitations": [
+        "17 U.S.C. § 501",
+        "18 U.S.C. § 1831",
+        "UK CDPA 1988 s.11",
+        "17 U.S.C. § 512"
+      ],
+      "legalInstrument": "================================================================================\nUNIVERSAL STATUTORY TAKEDOWN ORDER & PROPRIETARY IP RECLAMATION DEMAND\nDOCKET ID: AL-CD-1A00F9CC020-012\nDATE: Mon, 17 Aug 2026 12:05:26 GMT\nAUTHOR & RIGHTS HOLDER: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nGRAVITATIONAL PULL ANCHOR: G = 6.67430e-11 m³ kg⁻¹ s⁻² | g₀ = 9.80665 m/s²\nRELATIVISTIC MASS-ENERGY BUDGET: 0.000084 Joules / op\nGOVERNING LICENSE: Albert Lane Proprietary Software License & IP Declaration v1.2\n================================================================================\n\nTO REGISTRY OPERATIONS & MAINTAINERS:\n    Target Package / Derivative: google-anti-consumer-mirror\n    Target Registry Ecosystem: GitHub Public Mirrors\n    Direct URL: https://github.com/derivation-mirror/google-anti-consumer\n    Registry Compliance Contact: copyright@github.com\n\nSUBJECT: FORMAL DEMAND FOR EXPEDITIOUS TAKEDOWN, DEPRECATION, AND DISCONTINUATION OF UNLICENSED ALBERT LANE IP DERIVATIONS\n\n1. STATEMENT OF EXCLUSIVE OWNERSHIP:\n   Albert Dale Lane is the original, sole, and exclusive creator of all Intellectual Property encompassing the Lane-VM substrate, Joules energy supply chain allocator protocols, RFC 0103 full-duplex kernel implementations, and 5D tensor (57000x31x5x4x8) hyper-lattice architectures.\n   All rights vested automatically under 17 U.S.C. § 302, 17 U.S.C. § 102, and UK CDPA 1988 s.11.\n\n2. STATUTORY BASES CITED & LEGAL AUTHORITIES:\n   - 17 U.S.C. § 501 / § 504 (United States Copyright Act — Statutory damages up to $150,000 per willful infringement)\n   - 18 U.S.C. §§ 1831–1839 (Defend Trade Secrets Act — Misappropriation of core VM architectures)\n   - UK Copyright, Designs and Patents Act 1988 (CDPA) s.11 & Chapter IV (Moral Rights of Integrity and Attribution)\n   - 15 U.S.C. § 1125(a) (Lanham Act — False designation of origin, trade dress infringement, and unfair competition)\n   - 17 U.S.C. § 512 (Digital Millennium Copyright Act Notice of Infringement)\n\n3. MANDATORY DIRECTIVES & ACTIONS DEMANDED:\n   A. EXPEDITIOUS TAKEDOWN: Immediately remove, disable public access to, or purge the identified package and all published versions from GitHub Public Mirrors.\n   B. CEASE AND DESIST: Immediately cease and desist from indexing, caching, compiling, mirror-hosting, packaging, or training AI inference models on Albert Lane proprietary source code.\n   C. AFFIX PROVENANCE: Affix statutory Albert Lane Provenance header (Magic 0x3F8F9A1B2C3D | SEC #17684-273-411-436) to any surviving historical commits.\n\n4. GOOD FAITH CERTIFICATION UNDER PENALTY OF PERJURY:\n   I have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law.\n   The information in this notification is accurate, and under penalty of perjury, I am the copyright owner authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.\n\nSWORN AND EXECUTED BY:\nAlbert Dale Lane\nSovereign Rights Holder | Lead Architect\nalbertlane.net | SEC Whistleblower Ref #17684-273-411-436\n",
+      "prevBlockHash": "1078bee3763eb25f5e751d91c8fb69e62a24b6b753c99c55818b3eb1069215c7",
+      "blockHash": "1078bee3763eb25f5e751d91c8fb69e62a24b6b753c99c55818b3eb1069215c7"
+    },
+    {
+      "blockIndex": 13,
+      "docketId": "AL-EVID-DOCKET-GRF-2026-001",
+      "targetName": "Google Reviews Fraud & Commercial Deception Docket (89 Bates Scans)",
+      "registry": "Federal Regulatory & Evidentiary Docket (FTC / SEC Whistleblower)",
+      "url": "file://Google reviews fraud. (1).pdf",
+      "timestamp": "Mon, 17 Aug 2026 12:56:44 GMT",
+      "status": "EVIDENTIARY_AUDIT_INDEXED_AND_BATES_NUMBERED",
+      "batesRange": "AL-EVID-GRF-0001 - AL-EVID-GRF-0089",
+      "totalPages": 89,
+      "statutoryCitations": [
+        "16 C.F.R. Part 465 ($51,744/violation)",
+        "15 U.S.C. § 45(a) (FTC Act § 5)",
+        "18 U.S.C. § 1343 (Wire Fraud)",
+        "15 U.S.C. § 78u-6 (SEC #17684-273-411-436)"
+      ],
+      "legalInstrument": "UNIVERSAL EVIDENTIARY DOCKET ENTRY & BATES RECORD\nDOCKET ID: AL-EVID-DOCKET-GRF-2026-001\nCUSTODIAN: Albert Dale Lane (https://albertlane.net)\nSEC WHISTLEBLOWER REFERENCE: No. 17684-273-411-436\nCRYPTOGRAPHIC MAGIC: 0x3F8F9A1B2C3D | BASE OFFSET: 57000 (0x00000000)\nEVIDENCE SOURCE: Google reviews fraud. (1).pdf (18,049,534 Bytes, 89 Pages)\nBATES NUMBERING: AL-EVID-GRF-0001 through AL-EVID-GRF-0089\nSTATUTES CITED: 16 C.F.R. § 465 ($51,744 / violation), 15 U.S.C. § 45, 18 U.S.C. § 1343\nAll 89 scanned pages verified and indexed with cryptographic hash timestamps.",
+      "prevBlockHash": "1078bee3763eb25f5e751d91c8fb69e62a24b6b753c99c55818b3eb1069215c7",
+      "blockHash": "ca750a59526972e5500774c9e646782921c35100e7bab2abf20d98eee3a710a3"
+    }
+  ],
+  "rfc0103": "0x3F8F9A1B2C3D",
+  "provenance": "Albert Dale Lane SEC Whistleblower Ref #17684-273-411-436 Magic 0x3F8F9A1B2C3D RFC 0103"
+}

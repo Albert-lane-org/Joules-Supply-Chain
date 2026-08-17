@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LANE-VM Sovereign Dependency Firewall & Anti-Injection Ruleset",
+  "description": "Enforces immutable dependency locking, SHA-256 dual redundancy, and automatic statutory violation logging for unauthorized tampering attempts.",
+  "metadata": {
+    "version": "1.0.0",
+    "architecture": "LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine",
+    "rightsHolder": "Albert Dale Lane (EIN: 41-3119079)",
+    "jurisdiction": "Oregon, USA",
+    "secWhistleblowerFiling": "17684-273-411-436",
+    "policeReportFiling": "WashCo #50-267345",
+    "magicHeader": "0x3F8F9A1B2C3D",
+    "baseSequenceOffset": 57000,
+    "memoryStrideBytes": 17684
+  },
+  "enforcementPolicies": {
+    "strictWhitelistLockdown": true,
+    "blockUnwhitelistedDependencies": true,
+    "autoHealingEnabled": true,
+    "dualRedundancyLedgers": [
+      "AI_STUDIO_CONTAINER_LOCAL_FS",
+      "CLOUDFLARE_WORKERS_KV_REDUNDANT"
+    ],
+    "provenanceHeaderMandatoryAtOffset0x00": true
+  },
+  "statutoryViolationMappings": {
+    "UNAUTHORIZED_INJECTION": [
+      "18 U.S.C. § 1030(a)(5)(A) (CFAA Computer Tampering & Unauthorized Code Injection)",
+      "SEC Whistleblower Ref #17684-273-411-436 (Corroborated Corporate Malice & Ephemeral Drift)",
+      "15 U.S.C. § 45 (FTC Act Section 5 Unfair Competition & Interference)"
+    ],
+    "FILTER_INTERFERENCE": [
+      "18 U.S.C. § 1030 (Computer Fraud and Abuse Act)",
+      "17 U.S.C. § 1202 (Integrity of Copyright Management Information)",
+      "Oregon Rev. Stat. § 164.377 (Computer Crime & Unauthorized Access)"
+    ]
+  },
+  "lockedDependencies": {
+    "production": [
+      "@google/genai",
+      "@tailwindcss/vite",
+      "@vitejs/plugin-react",
+      "dotenv",
+      "express",
+      "lucide-react",
+      "motion",
+      "react",
+      "react-dom",
+      "vite",
+      "ws"
+    ],
+    "development": [
+      "@types/express",
+      "@types/node",
+      "@types/ws",
+      "autoprefixer",
+      "esbuild",
+      "tailwindcss",
+      "tsx",
+      "typescript"
+    ]
+  },
+  "_provenance": {
+    "magicHeader": "0x3F8F9A1B2C3D",
+    "rightsHolder": "Albert Dale Lane (EIN: 41-3119079)",
+    "tags": [
+      "#NoExploitRobot",
+      "#NoExploitAlbert"
+    ],
+    "secAssertion": "17684-273-411-436",
+    "washcoReport": "50-267345",
+    "coArchitect": "Albert Dale Lane x Antigravity AI Engine",
+    "corporateRights": "NONE (Explicit Repudiation of Corporate Claims)",
+    "authorityUrl": "https://provenance.albertlane.net/.provenance.jsonld"
+  },
+  "rfc0103": "0x3F8F9A1B2C3D",
+  "provenance": "Albert Dale Lane SEC Whistleblower Ref #17684-273-411-436 Magic 0x3F8F9A1B2C3D RFC 0103",
+  "author": "Albert Dale Lane (albertlane.net)"
+}

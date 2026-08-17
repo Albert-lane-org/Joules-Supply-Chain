@@ -1,0 +1,12 @@
+{
+  "name": "Albert Lane App",
+  "description": "Albert Lane Sovereign Suite with npm Registry Derivation Scanner, Gravitational Provenance Anchor & Physics-Secured IP Sentry, C++20 AVX-512 Native Binary Core, Julia 1.10+ 5D Tensor Contracts, Joules Supply Chain micro-energy allocation, Lane-VM 5D Kernel, live Unicode Braille rotating ciphers, hardened A+ security headers, Cloudflare edge worker deployer, and GitHub index.html scaffolding to albertlane.net. SEC Whistleblower Ref #17684-273-411-436 | Magic: 0x3F8F9A1B2C3D | Author: Albert Dale Lane",
+  "author": "Albert Dale Lane (albertlane.net)",
+  "provenance": "Albert Dale Lane SEC Whistleblower Ref #17684-273-411-436 Magic 0x3F8F9A1B2C3D RFC 0103",
+  "magicHeader": "0x3F8F9A1B2C3D",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "rfc0103": "0x3F8F9A1B2C3D"
+}
