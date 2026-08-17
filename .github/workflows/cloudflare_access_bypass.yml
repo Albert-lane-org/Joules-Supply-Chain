@@ -10,22 +10,20 @@ jobs:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
-      - name: Fetch Zero Trust Apps & Push Bypass Policy
+      - name: Inject Bypass Policy into All Access Applications
         run: |
-          # Fetch all Access Applications under the Account
+          # Fetch all Access Apps
           APPS_RESPONSE=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/access/apps" \
             -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
 
-          echo "Access Apps Payload:"
+          echo "Found Applications Payload:"
           echo "$APPS_RESPONSE"
 
-          # Extract App ID for lane-vm-sovereign-worker
-          APP_ID=$(echo "$APPS_RESPONSE" | grep -o '"id":"[^"]*' | head -n 1 | cut -d'"' -f4)
+          # Iterate through all application IDs and attach the bypass policy
+          APP_IDS=$(echo "$APPS_RESPONSE" | grep -o '"id":"[^"]*' | cut -d'"' -f4)
 
-          if [ -n "$APP_ID" ]; then
-            echo "Creating Bypass Policy for Access App: $APP_ID"
-            
-            # Create a Policy with decision: "bypass" for public path
+          for APP_ID in $APP_IDS; do
+            echo "Applying Bypass Policy to Access App: $APP_ID"
             curl -s -X POST "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/access/apps/$APP_ID/policies" \
               -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
               -H "Content-Type: application/json" \
@@ -37,7 +35,4 @@ jobs:
                 ],
                 "path": "/.provenance.jsonld"
               }'
-            echo "Access Bypass Policy applied successfully."
-          else
-            echo "No Access Application found under Account $CLOUDFLARE_ACCOUNT_ID"
-          fi
+          done
