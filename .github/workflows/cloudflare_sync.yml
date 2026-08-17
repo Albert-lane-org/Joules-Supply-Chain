@@ -27,12 +27,12 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - name: Checkout Sovereign Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js Environment (Modern LTS)
-        uses: actions/setup-node@v4
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
           node-version: '22.x'
 
@@ -41,13 +41,10 @@ jobs:
           echo ">> [RFC-0103] Auditing byte offset 0x00 for sovereign provenance metadata..."
           node scripts/smoke_test_and_rfc0103_audit.js
 
-      - name: Deploy to Cloudflare Workers via Wrangler
-        if: env.CLOUDFLARE_API_TOKEN != ''
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy --config wrangler.jsonc
+      - name: Deploy to Cloudflare Workers via Direct Wrangler CLI
+        run: |
+          npm install -g wrangler
+          npx wrangler deploy --config wrangler.jsonc
 
       - name: Dispatch Bidirectional Webhook to AI Studio Sentry
         if: always()
