@@ -1,0 +1,32 @@
+name: Disable API Gateway Challenge Rule
+
+on:
+  workflow_dispatch:
+
+jobs:
+  disable-rule:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Locate and Disable Rule aacf9691c6994fb9aeccac9d8ac78d00
+        run: |
+          ZONE_ID="80a9f1b37935fb33771c241be1172699"
+          RULE_ID="aacf9691c6994fb9aeccac9d8ac78d00"
+
+          # 1. Get all rulesets for the zone
+          RULESETS=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/rulesets" \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN")
+
+          # 2. Extract every Ruleset ID
+          RULESET_IDS=$(echo "$RULESETS" | grep -o '"id":"[^"]*' | cut -d'"' -f4 | sort -u)
+
+          # 3. Patch the specific rule across the rulesets
+          for RS_ID in $RULESET_IDS; do
+            echo "Attempting disable on Ruleset: $RS_ID"
+            RESPONSE=$(curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/rulesets/$RS_ID/rules/$RULE_ID" \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              -d '{"enabled": false}')
+            echo "Response: $RESPONSE"
+          done
