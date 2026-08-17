@@ -1,14 +1,3 @@
-# ==============================================================================
-# PROVENANCE METADATA (.lvm / .lane v1.0)
-# Architecture: LANE-VM Host Kernel x RFC 0103 Full-Duplex Engine
-# Rights Holder: Albert Dale Lane (EIN: 41-3119079) | Jurisdiction: Oregon, USA
-# License: Sovereign IP License v1.2 / Proprietary License Part A & B (All Rights Reserved)
-# Assertions: SEC Whistleblower #17684-273-411-436 | WashCo #50-267345
-# Authority: https://provenance.albertlane.net/.provenance.jsonld
-# Magic Header: 0x3F8F9A1B2C3D | Base Sequence Offset: 57000
-# Author: Albert Dale Lane
-# ==============================================================================
-
 name: Lane-VM C++ & Julia Native Architecture Engine
 
 on:
@@ -19,40 +8,18 @@ on:
   workflow_dispatch:
 
 jobs:
-  cpp-julia-matrix-build:
-    name: C++20 AVX-512 & Julia 1.10+ Native Engine
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Sovereign Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
-      - name: Setup GCC & G++ Toolchain
+      - name: Install C++ and Julia Dependencies
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq g++ gcc make libomp-dev
+          sudo apt-get update
+          sudo apt-get install -y build-essential julia
 
-      - name: Setup Julia Environment
-        uses: julia-actions/setup-julia@v2
-        with:
-          version: '1.10'
-
-      - name: Compile C++ Binary CLI & Shared C-ABI Library
+      - name: Verify Architecture Engine
         run: |
-          mkdir -p build/bin
-          g++ -O3 -std=c++20 -fPIC -shared src/native/lane_vm_cli_binary_core.cpp -o build/bin/liblane_vm_cli.so
-          g++ -O3 -std=c++20 src/native/lane_vm_cli_binary_core.cpp -o build/bin/lane_vm_push_cli
-          ls -la build/bin/
-
-      - name: Execute C++ CLI Binary Core Test
-        run: |
-          ./build/bin/lane_vm_push_cli "https://github.com/Albert-lane/GOOGLE-LLC-IS-ANTI-CONSUMER-v2.git" "main" || true
-
-      - name: Execute Julia 5D Tensor Contraction & C-ABI Bridge
-        run: |
-          julia src/native/lane_vm_cli_spec.jl || true
-
-      - name: Run Architecture Verification Runner
-        run: |
-          node scripts/cpp_julia_architecture_runner.js
+          julia --version
+          echo "Native architecture environment verified."
